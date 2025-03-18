@@ -1,0 +1,1288 @@
+file,commits,lines_added,lines_removed
+src/integrations/prefect-aws/LICENSE,1,202,0
+src/integrations/prefect-aws/MANIFEST.in,1,9,0
+src/integrations/prefect-aws/README.md,2,25,5
+src/integrations/prefect-aws/prefect_aws/__init__.py,2,29,2
+src/integrations/prefect-aws/prefect_aws/batch.py,5,148,7
+src/integrations/prefect-aws/prefect_aws/client_parameters.py,3,174,12
+src/integrations/prefect-aws/prefect_aws/client_waiter.py,5,151,11
+src/integrations/prefect-aws/prefect_aws/credentials.py,4,318,21
+src/integrations/prefect-aws/prefect_aws/deployments/__init__.py,1,0,0
+src/integrations/prefect-aws/prefect_aws/deployments/steps.py,3,260,61
+src/integrations/prefect-aws/prefect_aws/ecs.py,4,1605,1605
+src/integrations/prefect-aws/prefect_aws/experimental/__init__.py,1,0,0
+src/integrations/prefect-aws/prefect_aws/experimental/bundles/__init__.py,1,0,0
+src/integrations/prefect-aws/prefect_aws/experimental/bundles/execute.py,1,109,0
+src/integrations/prefect-aws/prefect_aws/experimental/bundles/types.py,2,8,8
+src/integrations/prefect-aws/prefect_aws/experimental/bundles/upload.py,1,97,0
+src/integrations/prefect-aws/prefect_aws/glue_job.py,2,192,8
+src/integrations/prefect-aws/prefect_aws/lambda_function.py,5,277,28
+src/integrations/prefect-aws/prefect_aws/s3.py,9,2704,185
+src/integrations/prefect-aws/prefect_aws/secrets_manager.py,7,674,30
+src/integrations/prefect-aws/prefect_aws/utilities.py,1,116,0
+src/integrations/prefect-aws/prefect_aws/workers/__init__.py,1,3,0
+src/integrations/prefect-aws/prefect_aws/workers/ecs_worker.py,8,1873,148
+src/integrations/prefect-aws/pyproject.toml,11,139,45
+src/integrations/prefect-azure/LICENSE,1,202,0
+src/integrations/prefect-azure/MANIFEST.in,1,9,0
+src/integrations/prefect-azure/README.md,3,158,5
+src/integrations/prefect-azure/prefect_azure/__init__.py,2,24,2
+src/integrations/prefect-azure/prefect_azure/blob_storage.py,6,892,136
+src/integrations/prefect-azure/prefect_azure/container_instance.py,5,1009,881
+src/integrations/prefect-azure/prefect_azure/cosmos_db.py,1,236,0
+src/integrations/prefect-azure/prefect_azure/credentials.py,4,616,16
+src/integrations/prefect-azure/prefect_azure/deployments/__init__.py,1,0,0
+src/integrations/prefect-azure/prefect_azure/deployments/steps.py,3,208,4
+src/integrations/prefect-azure/prefect_azure/ml_datastore.py,3,300,8
+src/integrations/prefect-azure/prefect_azure/py.typed,1,0,0
+src/integrations/prefect-azure/prefect_azure/workers/__init__.py,1,3,0
+src/integrations/prefect-azure/prefect_azure/workers/container_instance.py,8,1120,119
+src/integrations/prefect-azure/pyproject.toml,15,136,41
+src/integrations/prefect-bitbucket/LICENSE,1,202,0
+src/integrations/prefect-bitbucket/MANIFEST.in,1,9,0
+src/integrations/prefect-bitbucket/README.md,3,151,141
+src/integrations/prefect-bitbucket/prefect_bitbucket/__init__.py,1,8,0
+src/integrations/prefect-bitbucket/prefect_bitbucket/credentials.py,3,121,12
+src/integrations/prefect-bitbucket/prefect_bitbucket/repository.py,2,209,14
+src/integrations/prefect-bitbucket/pyproject.toml,10,101,18
+src/integrations/prefect-dask/LICENSE,1,202,0
+src/integrations/prefect-dask/MANIFEST.in,1,9,0
+src/integrations/prefect-dask/README.md,2,260,250
+src/integrations/prefect-dask/prefect_dask/__init__.py,3,7,1
+src/integrations/prefect-dask/prefect_dask/client.py,4,167,14
+src/integrations/prefect-dask/prefect_dask/py.typed,1,1,0
+src/integrations/prefect-dask/prefect_dask/task_runners.py,14,729,259
+src/integrations/prefect-dask/prefect_dask/utils.py,1,160,0
+src/integrations/prefect-dask/pyproject.toml,11,104,15
+src/integrations/prefect-databricks/LICENSE,1,202,0
+src/integrations/prefect-databricks/MANIFEST.in,1,9,0
+src/integrations/prefect-databricks/README.md,2,173,162
+src/integrations/prefect-databricks/prefect_databricks/__init__.py,2,4,0
+src/integrations/prefect-databricks/prefect_databricks/credentials.py,2,80,7
+src/integrations/prefect-databricks/prefect_databricks/flows.py,7,719,17
+src/integrations/prefect-databricks/prefect_databricks/jobs.py,3,1978,3
+src/integrations/prefect-databricks/prefect_databricks/models/__init__.py,1,0,0
+src/integrations/prefect-databricks/prefect_databricks/models/jobs.py,6,4770,392
+src/integrations/prefect-databricks/prefect_databricks/rest.py,3,183,16
+src/integrations/prefect-databricks/prefect_databricks/schemas/jobs-2.1-aws.yaml,3,4246,1
+src/integrations/prefect-databricks/prefect_databricks/schemas/original/jobs-2.1-aws.yaml,2,4185,1
+src/integrations/prefect-databricks/pyproject.toml,11,100,21
+src/integrations/prefect-dbt/LICENSE,1,202,0
+src/integrations/prefect-dbt/MANIFEST.in,1,9,0
+src/integrations/prefect-dbt/README.md,3,304,294
+src/integrations/prefect-dbt/prefect_dbt/__init__.py,4,69,25
+src/integrations/prefect-dbt/prefect_dbt/cli/__init__.py,2,44,0
+src/integrations/prefect-dbt/prefect_dbt/cli/commands.py,17,1348,336
+src/integrations/prefect-dbt/prefect_dbt/cli/configs/__init__.py,1,16,0
+src/integrations/prefect-dbt/prefect_dbt/cli/configs/base.py,6,383,30
+src/integrations/prefect-dbt/prefect_dbt/cli/configs/bigquery.py,4,158,9
+src/integrations/prefect-dbt/prefect_dbt/cli/configs/postgres.py,4,129,41
+src/integrations/prefect-dbt/prefect_dbt/cli/configs/snowflake.py,4,140,7
+src/integrations/prefect-dbt/prefect_dbt/cli/credentials.py,4,184,15
+src/integrations/prefect-dbt/prefect_dbt/cli/tasks.py,2,179,179
+src/integrations/prefect-dbt/prefect_dbt/cloud/__init__.py,1,2,0
+src/integrations/prefect-dbt/prefect_dbt/cloud/clients.py,2,237,1
+src/integrations/prefect-dbt/prefect_dbt/cloud/credentials.py,3,195,10
+src/integrations/prefect-dbt/prefect_dbt/cloud/exceptions.py,1,41,0
+src/integrations/prefect-dbt/prefect_dbt/cloud/jobs.py,8,1169,32
+src/integrations/prefect-dbt/prefect_dbt/cloud/models.py,2,76,6
+src/integrations/prefect-dbt/prefect_dbt/cloud/runs.py,3,306,3
+src/integrations/prefect-dbt/prefect_dbt/cloud/utils.py,2,149,0
+src/integrations/prefect-dbt/prefect_dbt/core/__init__.py,2,6,2
+src/integrations/prefect-dbt/prefect_dbt/core/profiles.py,1,155,0
+src/integrations/prefect-dbt/prefect_dbt/core/runner.py,1,487,0
+src/integrations/prefect-dbt/prefect_dbt/core/settings.py,1,17,0
+src/integrations/prefect-dbt/prefect_dbt/utilities.py,2,41,0
+src/integrations/prefect-dbt/pyproject.toml,15,144,37
+src/integrations/prefect-docker/LICENSE,1,202,0
+src/integrations/prefect-docker/MANIFEST.in,1,9,0
+src/integrations/prefect-docker/README.md,4,117,107
+src/integrations/prefect-docker/prefect_docker/__init__.py,1,7,0
+src/integrations/prefect-docker/prefect_docker/containers.py,2,242,1
+src/integrations/prefect-docker/prefect_docker/credentials.py,3,78,8
+src/integrations/prefect-docker/prefect_docker/deployments/__init__.py,1,0,0
+src/integrations/prefect-docker/prefect_docker/deployments/steps.py,4,375,18
+src/integrations/prefect-docker/prefect_docker/host.py,3,125,8
+src/integrations/prefect-docker/prefect_docker/images.py,2,87,1
+src/integrations/prefect-docker/prefect_docker/types.py,1,54,0
+src/integrations/prefect-docker/prefect_docker/worker.py,12,860,119
+src/integrations/prefect-docker/pyproject.toml,13,99,18
+src/integrations/prefect-email/LICENSE,1,202,0
+src/integrations/prefect-email/MANIFEST.in,1,9,0
+src/integrations/prefect-email/README.md,3,147,137
+src/integrations/prefect-email/prefect_email/__init__.py,1,7,0
+src/integrations/prefect-email/prefect_email/credentials.py,4,233,14
+src/integrations/prefect-email/prefect_email/message.py,1,121,0
+src/integrations/prefect-email/pyproject.toml,10,99,20
+src/integrations/prefect-gcp/LICENSE,1,202,0
+src/integrations/prefect-gcp/MANIFEST.in,1,9,0
+src/integrations/prefect-gcp/README.md,2,28,8
+src/integrations/prefect-gcp/prefect_gcp/__init__.py,3,24,2
+src/integrations/prefect-gcp/prefect_gcp/aiplatform.py,3,636,636
+src/integrations/prefect-gcp/prefect_gcp/bigquery.py,4,956,9
+src/integrations/prefect-gcp/prefect_gcp/cloud_run.py,2,852,852
+src/integrations/prefect-gcp/prefect_gcp/cloud_storage.py,7,1372,28
+src/integrations/prefect-gcp/prefect_gcp/credentials.py,7,589,31
+src/integrations/prefect-gcp/prefect_gcp/deployments/__init__.py,1,0,0
+src/integrations/prefect-gcp/prefect_gcp/deployments/steps.py,2,259,0
+src/integrations/prefect-gcp/prefect_gcp/models/__init__.py,1,0,0
+src/integrations/prefect-gcp/prefect_gcp/models/cloud_run_v2.py,5,435,43
+src/integrations/prefect-gcp/prefect_gcp/secret_manager.py,4,410,9
+src/integrations/prefect-gcp/prefect_gcp/utilities.py,4,219,7
+src/integrations/prefect-gcp/prefect_gcp/workers/__init__.py,1,0,0
+src/integrations/prefect-gcp/prefect_gcp/workers/cloud_run.py,10,910,97
+src/integrations/prefect-gcp/prefect_gcp/workers/cloud_run_v2.py,12,985,126
+src/integrations/prefect-gcp/prefect_gcp/workers/vertex.py,14,845,187
+src/integrations/prefect-gcp/pyproject.toml,13,124,16
+src/integrations/prefect-github/LICENSE,1,202,0
+src/integrations/prefect-github/MANIFEST.in,1,9,0
+src/integrations/prefect-github/README.md,3,94,84
+src/integrations/prefect-github/prefect_github/__init__.py,2,9,1
+src/integrations/prefect-github/prefect_github/configs/mutation/add_comment.json,1,20,0
+src/integrations/prefect-github/prefect_github/configs/mutation/add_pull_request_review.json,1,36,0
+src/integrations/prefect-github/prefect_github/configs/mutation/add_reaction.json,1,20,0
+src/integrations/prefect-github/prefect_github/configs/mutation/add_star.json,1,12,0
+src/integrations/prefect-github/prefect_github/configs/mutation/close_issue.json,1,43,0
+src/integrations/prefect-github/prefect_github/configs/mutation/close_pull_request.json,1,65,0
+src/integrations/prefect-github/prefect_github/configs/mutation/create_issue.json,1,43,0
+src/integrations/prefect-github/prefect_github/configs/mutation/create_pull_request.json,1,65,0
+src/integrations/prefect-github/prefect_github/configs/mutation/remove_reaction.json,1,20,0
+src/integrations/prefect-github/prefect_github/configs/mutation/remove_star.json,1,12,0
+src/integrations/prefect-github/prefect_github/configs/mutation/request_reviews.json,1,78,0
+src/integrations/prefect-github/prefect_github/configs/query/organization.json,1,391,0
+src/integrations/prefect-github/prefect_github/configs/query/repository.json,1,598,0
+src/integrations/prefect-github/prefect_github/configs/query/repository_owner.json,1,83,0
+src/integrations/prefect-github/prefect_github/configs/query/user.json,1,483,0
+src/integrations/prefect-github/prefect_github/configs/query/viewer.json,1,483,0
+src/integrations/prefect-github/prefect_github/credentials.py,4,101,42
+src/integrations/prefect-github/prefect_github/exceptions.py,1,5,0
+src/integrations/prefect-github/prefect_github/graphql.py,2,148,0
+src/integrations/prefect-github/prefect_github/mutations.py,2,693,25
+src/integrations/prefect-github/prefect_github/organization.py,2,2260,156
+src/integrations/prefect-github/prefect_github/repository.py,5,3614,224
+src/integrations/prefect-github/prefect_github/repository_owner.py,2,204,14
+src/integrations/prefect-github/prefect_github/schemas/__init__.py,1,0,0
+src/integrations/prefect-github/prefect_github/schemas/graphql_schema.json,1,140145,0
+src/integrations/prefect-github/prefect_github/schemas/graphql_schema.py,2,32933,1
+src/integrations/prefect-github/prefect_github/user.py,2,2741,191
+src/integrations/prefect-github/prefect_github/utils.py,1,66,0
+src/integrations/prefect-github/prefect_github/viewer.py,2,2475,191
+src/integrations/prefect-github/pyproject.toml,9,94,16
+src/integrations/prefect-gitlab/LICENSE,1,202,0
+src/integrations/prefect-gitlab/MANIFEST.in,1,9,0
+src/integrations/prefect-gitlab/README.md,3,86,76
+src/integrations/prefect-gitlab/prefect_gitlab/__init__.py,1,6,0
+src/integrations/prefect-gitlab/prefect_gitlab/credentials.py,2,63,13
+src/integrations/prefect-gitlab/prefect_gitlab/repositories.py,2,223,37
+src/integrations/prefect-gitlab/pyproject.toml,9,103,24
+src/integrations/prefect-kubernetes/LICENSE,1,202,0
+src/integrations/prefect-kubernetes/MANIFEST.in,1,9,0
+src/integrations/prefect-kubernetes/README.md,6,173,163
+src/integrations/prefect-kubernetes/prefect_kubernetes/__init__.py,2,12,1
+src/integrations/prefect-kubernetes/prefect_kubernetes/credentials.py,8,281,36
+src/integrations/prefect-kubernetes/prefect_kubernetes/custom_objects.py,2,464,22
+src/integrations/prefect-kubernetes/prefect_kubernetes/deployments.py,3,299,24
+src/integrations/prefect-kubernetes/prefect_kubernetes/events.py,6,167,46
+src/integrations/prefect-kubernetes/prefect_kubernetes/exceptions.py,2,20,1
+src/integrations/prefect-kubernetes/prefect_kubernetes/experimental/decorators.py,1,173,0
+src/integrations/prefect-kubernetes/prefect_kubernetes/flows.py,4,110,15
+src/integrations/prefect-kubernetes/prefect_kubernetes/jobs.py,8,642,69
+src/integrations/prefect-kubernetes/prefect_kubernetes/pods.py,3,377,37
+src/integrations/prefect-kubernetes/prefect_kubernetes/services.py,3,295,24
+src/integrations/prefect-kubernetes/prefect_kubernetes/settings.py,3,61,3
+src/integrations/prefect-kubernetes/prefect_kubernetes/utilities.py,4,242,92
+src/integrations/prefect-kubernetes/prefect_kubernetes/worker.py,25,1950,512
+src/integrations/prefect-kubernetes/pyproject.toml,17,142,46
+src/integrations/prefect-ray/LICENSE,1,202,0
+src/integrations/prefect-ray/MANIFEST.in,1,9,0
+src/integrations/prefect-ray/README.md,5,216,204
+src/integrations/prefect-ray/prefect_ray/__init__.py,1,6,0
+src/integrations/prefect-ray/prefect_ray/context.py,2,77,8
+src/integrations/prefect-ray/prefect_ray/task_runners.py,16,600,163
+src/integrations/prefect-ray/pyproject.toml,9,102,22
+src/integrations/prefect-redis/LICENSE,3,404,202
+src/integrations/prefect-redis/MANIFEST.in,3,28,14
+src/integrations/prefect-redis/README.md,5,156,146
+src/integrations/prefect-redis/prefect_redis/__init__.py,5,22,10
+src/integrations/prefect-redis/prefect_redis/blocks.py,3,180,3
+src/integrations/prefect-redis/prefect_redis/client.py,3,145,7
+src/integrations/prefect-redis/prefect_redis/credentials.py,2,158,158
+src/integrations/prefect-redis/prefect_redis/filesystem.py,3,174,13
+src/integrations/prefect-redis/prefect_redis/locking.py,2,28,1
+src/integrations/prefect-redis/prefect_redis/messaging.py,3,467,1
+src/integrations/prefect-redis/prefect_redis/ordering.py,1,277,0
+src/integrations/prefect-redis/prefect_redis/records.py,2,184,32
+src/integrations/prefect-redis/prefect_redis/redis.py,2,135,3
+src/integrations/prefect-redis/prefect_redis/{records.py => locking.py},1,50,63
+src/integrations/prefect-redis/prefect_redis/{redis.py => tasks.py},1,22,25
+src/integrations/prefect-redis/pyproject.toml,8,160,80
+src/integrations/prefect-shell/LICENSE,1,202,0
+src/integrations/prefect-shell/MANIFEST.in,1,9,0
+src/integrations/prefect-shell/README.md,2,165,155
+src/integrations/prefect-shell/prefect_shell/__init__.py,1,4,0
+src/integrations/prefect-shell/prefect_shell/commands.py,4,448,12
+src/integrations/prefect-shell/pyproject.toml,11,109,23
+src/integrations/prefect-slack/LICENSE,1,202,0
+src/integrations/prefect-slack/MANIFEST.in,1,9,0
+src/integrations/prefect-slack/README.md,2,59,1
+src/integrations/prefect-slack/prefect_slack/__init__.py,1,4,0
+src/integrations/prefect-slack/prefect_slack/credentials.py,6,184,51
+src/integrations/prefect-slack/prefect_slack/messages.py,3,152,11
+src/integrations/prefect-slack/pyproject.toml,11,101,23
+src/integrations/prefect-snowflake/LICENSE,1,202,0
+src/integrations/prefect-snowflake/MANIFEST.in,1,9,0
+src/integrations/prefect-snowflake/README.md,3,261,251
+src/integrations/prefect-snowflake/prefect_snowflake/__init__.py,1,5,0
+src/integrations/prefect-snowflake/prefect_snowflake/credentials.py,3,358,14
+src/integrations/prefect-snowflake/prefect_snowflake/database.py,7,1227,41
+src/integrations/prefect-snowflake/pyproject.toml,10,95,17
+src/integrations/prefect-sqlalchemy/LICENSE,1,202,0
+src/integrations/prefect-sqlalchemy/MANIFEST.in,1,9,0
+src/integrations/prefect-sqlalchemy/README.md,3,240,230
+src/integrations/prefect-sqlalchemy/prefect_sqlalchemy/__init__.py,2,10,1
+src/integrations/prefect-sqlalchemy/prefect_sqlalchemy/credentials.py,5,381,226
+src/integrations/prefect-sqlalchemy/prefect_sqlalchemy/database.py,5,991,201
+src/integrations/prefect-sqlalchemy/pyproject.toml,9,98,17
+src/prefect/.prefectignore,2,41,0
+src/prefect/__init__.py,116,525,402
+src/prefect/__main__.py,1,4,0
+src/prefect/_context.py,2,82,4
+src/prefect/_experimental/__init__.py,1,0,0
+src/prefect/_experimental/bundles.py,3,207,0
+src/prefect/_experimental/lineage.py,3,279,18
+src/prefect/_experimental/sla/__init__.py,1,0,0
+src/prefect/_experimental/sla/client.py,2,119,27
+src/prefect/_experimental/sla/objects.py,4,92,3
+src/prefect/_internal/__init__.py,1,0,0
+src/prefect/_internal/_logging.py,2,41,3
+src/prefect/_internal/compatibility/__init__.py,1,0,0
+src/prefect/_internal/compatibility/async_dispatch.py,6,169,71
+src/prefect/_internal/compatibility/deprecated.py,19,506,208
+src/prefect/_internal/compatibility/experimental.py,15,283,283
+src/prefect/_internal/compatibility/migration.py,12,187,21
+src/prefect/_internal/concurrency/__init__.py,4,51,9
+src/prefect/_internal/concurrency/api.py,20,634,400
+src/prefect/_internal/concurrency/calls.py,16,441,182
+src/prefect/_internal/concurrency/cancellation.py,8,632,31
+src/prefect/_internal/concurrency/event_loop.py,8,131,53
+src/prefect/_internal/concurrency/executor.py,3,109,109
+src/prefect/_internal/concurrency/from_async.py,6,97,97
+src/prefect/_internal/concurrency/from_sync.py,6,97,97
+src/prefect/_internal/concurrency/inspection.py,5,119,20
+src/prefect/_internal/concurrency/portals.py,1,8,6
+src/prefect/_internal/concurrency/primitives.py,7,173,94
+src/prefect/_internal/concurrency/runtime.py,5,363,363
+src/prefect/_internal/concurrency/services.py,25,655,194
+src/prefect/_internal/concurrency/supervisors.py,12,696,696
+src/prefect/_internal/concurrency/threads.py,18,427,98
+src/prefect/_internal/concurrency/timeouts.py,9,518,518
+src/prefect/_internal/concurrency/waiters.py,13,485,209
+src/prefect/_internal/concurrency/workers.py,3,399,172
+src/prefect/_internal/concurrency/{portals.py => calls.py},1,79,135
+src/prefect/_internal/concurrency/{workers.py => portals.py},1,67,16
+src/prefect/_internal/integrations.py,1,7,0
+src/prefect/_internal/pydantic/__init__.py,12,53,52
+src/prefect/_internal/pydantic/_base_model.py,7,67,67
+src/prefect/_internal/pydantic/_compat.py,19,683,683
+src/prefect/_internal/pydantic/_flags.py,5,20,20
+src/prefect/_internal/pydantic/_types.py,2,8,8
+src/prefect/_internal/pydantic/annotations/__init__.py,1,0,0
+src/prefect/_internal/pydantic/annotations/pendulum.py,4,91,13
+src/prefect/_internal/pydantic/schemas.py,1,14,0
+src/prefect/_internal/pydantic/utilities/__init__.py,1,0,0
+src/prefect/_internal/pydantic/utilities/config_dict.py,3,73,73
+src/prefect/_internal/pydantic/utilities/field_validator.py,4,164,164
+src/prefect/_internal/pydantic/utilities/model_construct.py,2,56,56
+src/prefect/_internal/pydantic/utilities/model_copy.py,2,55,55
+src/prefect/_internal/pydantic/utilities/model_dump.py,4,137,137
+src/prefect/_internal/pydantic/utilities/model_dump_json.py,2,112,112
+src/prefect/_internal/pydantic/utilities/model_fields.py,2,50,50
+src/prefect/_internal/pydantic/utilities/model_fields_set.py,2,29,29
+src/prefect/_internal/pydantic/utilities/model_json_schema.py,2,82,82
+src/prefect/_internal/pydantic/utilities/model_rebuild.py,2,80,80
+src/prefect/_internal/pydantic/utilities/model_validate.py,3,76,76
+src/prefect/_internal/pydantic/utilities/model_validate_json.py,2,68,68
+src/prefect/_internal/pydantic/utilities/model_validator.py,3,90,90
+src/prefect/_internal/pydantic/utilities/type_adapter.py,2,71,71
+src/prefect/_internal/pydantic/v1_schema.py,4,72,25
+src/prefect/_internal/pydantic/v2_schema.py,10,152,29
+src/prefect/_internal/pydantic/v2_validated_func.py,3,135,33
+src/prefect/_internal/pytz.py,4,627,5
+src/prefect/_internal/retries.py,5,93,17
+src/prefect/_internal/schemas/__init__.py,1,0,0
+src/prefect/_internal/schemas/bases.py,17,368,244
+src/prefect/_internal/schemas/fields.py,5,85,57
+src/prefect/_internal/schemas/serializers.py,1,26,0
+src/prefect/_internal/schemas/transformations.py,5,109,109
+src/prefect/_internal/schemas/validators.py,32,1423,755
+src/prefect/_result_records.py,2,241,1
+src/prefect/_vendor/README.md,4,41,41
+src/prefect/_vendor/__init__.py,1,0,0
+src/prefect/_vendor/croniter/__init__.py,1,25,0
+src/prefect/_vendor/croniter/croniter.py,1,1456,0
+src/prefect/_vendor/fastapi/__init__.py,4,27,27
+src/prefect/_vendor/fastapi/_compat.py,2,629,629
+src/prefect/_vendor/fastapi/applications.py,5,995,995
+src/prefect/_vendor/fastapi/background.py,3,4,4
+src/prefect/_vendor/fastapi/concurrency.py,4,48,48
+src/prefect/_vendor/fastapi/datastructures.py,4,96,96
+src/prefect/_vendor/fastapi/dependencies/__init__.py,2,0,0
+src/prefect/_vendor/fastapi/dependencies/models.py,4,66,66
+src/prefect/_vendor/fastapi/dependencies/utils.py,6,979,979
+src/prefect/_vendor/fastapi/encoders.py,5,270,270
+src/prefect/_vendor/fastapi/exception_handlers.py,3,44,44
+src/prefect/_vendor/fastapi/exceptions.py,5,76,76
+src/prefect/_vendor/fastapi/logger.py,2,3,3
+src/prefect/_vendor/fastapi/middleware/__init__.py,3,2,2
+src/prefect/_vendor/fastapi/middleware/asyncexitstack.py,3,26,26
+src/prefect/_vendor/fastapi/middleware/cors.py,3,4,4
+src/prefect/_vendor/fastapi/middleware/gzip.py,3,4,4
+src/prefect/_vendor/fastapi/middleware/httpsredirect.py,3,4,4
+src/prefect/_vendor/fastapi/middleware/trustedhost.py,3,4,4
+src/prefect/_vendor/fastapi/middleware/wsgi.py,3,4,4
+src/prefect/_vendor/fastapi/openapi/__init__.py,2,0,0
+src/prefect/_vendor/fastapi/openapi/constants.py,3,3,3
+src/prefect/_vendor/fastapi/openapi/docs.py,3,204,204
+src/prefect/_vendor/fastapi/openapi/models.py,4,686,686
+src/prefect/_vendor/fastapi/openapi/utils.py,5,606,606
+src/prefect/_vendor/fastapi/param_functions.py,4,603,603
+src/prefect/_vendor/fastapi/params.py,4,819,819
+src/prefect/_vendor/fastapi/requests.py,3,6,6
+src/prefect/_vendor/fastapi/responses.py,3,47,47
+src/prefect/_vendor/fastapi/routing.py,6,1435,1435
+src/prefect/_vendor/fastapi/security/__init__.py,2,15,15
+src/prefect/_vendor/fastapi/security/api_key.py,3,101,101
+src/prefect/_vendor/fastapi/security/base.py,2,6,6
+src/prefect/_vendor/fastapi/security/http.py,5,176,176
+src/prefect/_vendor/fastapi/security/oauth2.py,4,245,245
+src/prefect/_vendor/fastapi/security/open_id_connect_url.py,3,37,37
+src/prefect/_vendor/fastapi/security/utils.py,2,10,10
+src/prefect/_vendor/fastapi/staticfiles.py,3,2,2
+src/prefect/_vendor/fastapi/templating.py,3,4,4
+src/prefect/_vendor/fastapi/testclient.py,3,2,2
+src/prefect/_vendor/fastapi/types.py,1,11,0
+src/prefect/_vendor/fastapi/utils.py,4,306,306
+src/prefect/_vendor/fastapi/websockets.py,3,10,10
+src/prefect/_vendor/starlette/__init__.py,2,1,1
+src/prefect/_vendor/starlette/_compat.py,2,28,28
+src/prefect/_vendor/starlette/_exception_handler.py,2,80,80
+src/prefect/_vendor/starlette/_utils.py,2,88,88
+src/prefect/_vendor/starlette/applications.py,2,261,261
+src/prefect/_vendor/starlette/authentication.py,3,160,160
+src/prefect/_vendor/starlette/background.py,2,43,43
+src/prefect/_vendor/starlette/concurrency.py,2,59,59
+src/prefect/_vendor/starlette/config.py,2,151,151
+src/prefect/_vendor/starlette/convertors.py,2,87,87
+src/prefect/_vendor/starlette/datastructures.py,2,707,707
+src/prefect/_vendor/starlette/endpoints.py,2,130,130
+src/prefect/_vendor/starlette/exceptions.py,2,60,60
+src/prefect/_vendor/starlette/formparsers.py,2,276,276
+src/prefect/_vendor/starlette/middleware/__init__.py,2,17,17
+src/prefect/_vendor/starlette/middleware/authentication.py,2,52,52
+src/prefect/_vendor/starlette/middleware/base.py,2,220,220
+src/prefect/_vendor/starlette/middleware/cors.py,2,176,176
+src/prefect/_vendor/starlette/middleware/errors.py,2,265,265
+src/prefect/_vendor/starlette/middleware/exceptions.py,2,74,74
+src/prefect/_vendor/starlette/middleware/gzip.py,2,113,113
+src/prefect/_vendor/starlette/middleware/httpsredirect.py,2,19,19
+src/prefect/_vendor/starlette/middleware/sessions.py,2,82,82
+src/prefect/_vendor/starlette/middleware/trustedhost.py,2,64,64
+src/prefect/_vendor/starlette/middleware/wsgi.py,2,147,147
+src/prefect/_vendor/starlette/py.typed,2,0,0
+src/prefect/_vendor/starlette/requests.py,2,328,328
+src/prefect/_vendor/starlette/responses.py,2,347,347
+src/prefect/_vendor/starlette/routing.py,3,935,935
+src/prefect/_vendor/starlette/schemas.py,2,154,154
+src/prefect/_vendor/starlette/staticfiles.py,2,248,248
+src/prefect/_vendor/starlette/status.py,2,199,199
+src/prefect/_vendor/starlette/templating.py,2,231,231
+src/prefect/_vendor/starlette/testclient.py,4,806,806
+src/prefect/_vendor/starlette/types.py,2,30,30
+src/prefect/_vendor/starlette/websockets.py,2,193,193
+src/prefect/_vendor/vendor-fastapi,2,13,13
+src/prefect/_vendor/vendor-starlette,2,13,13
+src/prefect/_version.py,7,817,817
+src/prefect/_waiters.py,1,254,0
+src/prefect/agent.py,126,1474,1612
+src/prefect/agent/__init__.py,2,1,1
+src/prefect/agent/base_agent.py,1,145,0
+src/prefect/agents/__init__.py,2,1,1
+src/prefect/agents/agent.py,7,42,49
+src/prefect/artifacts.py,14,914,304
+src/prefect/automations.py,7,522,97
+src/prefect/blocks/__init__.py,8,16,9
+src/prefect/blocks/abstract.py,13,589,55
+src/prefect/blocks/basic.py,1,34,0
+src/prefect/blocks/core.py,166,3132,1351
+src/prefect/blocks/fields.py,4,70,67
+src/prefect/blocks/kubernetes.py,38,332,342
+src/prefect/blocks/notifications.py,53,791,262
+src/prefect/blocks/redis.py,2,14,10
+src/prefect/blocks/storage.py,90,797,785
+src/prefect/blocks/system.py,26,274,136
+src/prefect/blocks/webhook.py,10,97,20
+src/prefect/blocks/{basic.py => system.py},1,0,0
+src/prefect/cache_policies.py,12,214,77
+src/prefect/cli/__init__.py,46,62,31
+src/prefect/cli/_prompts.py,30,1276,291
+src/prefect/cli/_types.py,18,327,52
+src/prefect/cli/_utilities.py,16,287,145
+src/prefect/cli/agent.py,74,578,589
+src/prefect/cli/artifact.py,7,63,73
+src/prefect/cli/base.py,52,413,627
+src/prefect/cli/block.py,36,627,141
+src/prefect/cli/cloud.py,56,889,515
+src/prefect/cli/cloud/__init__.py,28,385,217
+src/prefect/cli/cloud/ip_allowlist.py,3,268,6
+src/prefect/cli/cloud/webhook.py,9,268,66
+src/prefect/cli/concurrency_limit.py,13,224,83
+src/prefect/cli/config.py,48,762,459
+src/prefect/cli/dashboard.py,4,50,21
+src/prefect/cli/deploy.py,100,3661,1823
+src/prefect/cli/deployment.py,264,3946,2891
+src/prefect/cli/deployments.py,4,176,176
+src/prefect/cli/dev.py,86,899,501
+src/prefect/cli/events.py,5,100,15
+src/prefect/cli/flow.py,21,273,86
+src/prefect/cli/flow_run.py,60,548,171
+src/prefect/cli/global_concurrency_limit.py,13,428,30
+src/prefect/cli/kubernetes.py,12,209,209
+src/prefect/cli/orion.py,106,764,532
+src/prefect/cli/orion_utils.py,3,84,84
+src/prefect/cli/profile.py,73,1244,833
+src/prefect/cli/project.py,13,323,323
+src/prefect/cli/root.py,42,804,525
+src/prefect/cli/run.py,3,14,14
+src/prefect/cli/server.py,36,818,401
+src/prefect/cli/shell.py,7,279,33
+src/prefect/cli/storage.py,58,790,765
+src/prefect/cli/task.py,5,59,4
+src/prefect/cli/task_run.py,5,231,8
+src/prefect/cli/templates/kubernetes-agent.yaml,3,46,99
+src/prefect/cli/templates/kubernetes-dev.yaml,8,88,88
+src/prefect/cli/templates/kubernetes-orion.yaml,1,39,0
+src/prefect/cli/templates/kubernetes-server.yaml,1,0,39
+src/prefect/cli/templates/kubernetes.yaml,9,82,12
+src/prefect/cli/templates/{kubernetes-orion.yaml => kubernetes-server.yaml},1,8,8
+src/prefect/cli/templates/{kubernetes.yaml => kubernetes-agent.yaml},1,12,29
+src/prefect/cli/variable.py,7,192,15
+src/prefect/cli/work_pool.py,35,953,270
+src/prefect/cli/work_queue.py,40,716,361
+src/prefect/cli/work_queues.py,17,347,105
+src/prefect/cli/worker.py,27,430,208
+src/prefect/cli/workspace.py,4,310,103
+src/prefect/cli/{cloud.py => cloud/__init__.py},1,0,0
+src/prefect/cli/{orion.py => server.py},1,38,12
+src/prefect/cli/{work_queues.py => work_queue.py},1,0,0
+src/prefect/cli/{workspace.py => cloud.py},1,4,6
+src/prefect/client.py,410,4826,2752
+src/prefect/client/__init__.py,6,31,8
+src/prefect/client/_adapters.py,2,123,123
+src/prefect/client/base.py,34,800,157
+src/prefect/client/cloud.py,31,288,90
+src/prefect/client/collections.py,5,41,10
+src/prefect/client/constants.py,1,1,0
+src/prefect/client/orchestration.py,86,2405,1341
+src/prefect/client/orchestration/__init__.py,17,139,2765
+src/prefect/client/orchestration/_artifacts/__init__.py,1,0,0
+src/prefect/client/orchestration/_artifacts/client.py,1,239,0
+src/prefect/client/orchestration/_automations/__init__.py,1,0,0
+src/prefect/client/orchestration/_automations/client.py,2,333,0
+src/prefect/client/orchestration/_blocks_documents/__init__.py,1,0,0
+src/prefect/client/orchestration/_blocks_documents/client.py,1,334,0
+src/prefect/client/orchestration/_blocks_schemas/__init__.py,1,0,0
+src/prefect/client/orchestration/_blocks_schemas/client.py,2,202,2
+src/prefect/client/orchestration/_blocks_types/__init__.py,1,0,0
+src/prefect/client/orchestration/_blocks_types/client.py,2,380,0
+src/prefect/client/orchestration/_concurrency_limits/__init__.py,1,0,0
+src/prefect/client/orchestration/_concurrency_limits/client.py,1,762,0
+src/prefect/client/orchestration/_deployments/__init__.py,1,0,0
+src/prefect/client/orchestration/_deployments/client.py,6,1146,10
+src/prefect/client/orchestration/_flow_runs/__init__.py,1,0,0
+src/prefect/client/orchestration/_flow_runs/client.py,2,913,6
+src/prefect/client/orchestration/_flows/__init__.py,1,0,0
+src/prefect/client/orchestration/_flows/client.py,1,343,0
+src/prefect/client/orchestration/_logs/__init__.py,1,0,0
+src/prefect/client/orchestration/_logs/client.py,2,111,14
+src/prefect/client/orchestration/_variables/__init__.py,1,0,0
+src/prefect/client/orchestration/_variables/client.py,1,157,0
+src/prefect/client/orchestration/_work_pools/__init__.py,1,0,0
+src/prefect/client/orchestration/_work_pools/client.py,1,598,0
+src/prefect/client/orchestration/base.py,3,55,2
+src/prefect/client/orchestration/routes.py,1,145,0
+src/prefect/client/orion.py,58,1063,531
+src/prefect/client/schemas.py,10,392,392
+src/prefect/client/schemas/__init__.py,3,119,28
+src/prefect/client/schemas/actions.py,57,1574,683
+src/prefect/client/schemas/filters.py,18,1247,85
+src/prefect/client/schemas/objects.py,98,2384,680
+src/prefect/client/schemas/responses.py,29,617,169
+src/prefect/client/schemas/schedules.py,24,656,271
+src/prefect/client/schemas/sorting.py,4,100,0
+src/prefect/client/subscriptions.py,10,29,28
+src/prefect/client/types/flexible_schedule_list.py,3,14,2
+src/prefect/client/utilities.py,17,223,122
+src/prefect/client/{orchestration.py => orchestration/__init__.py},1,9,166
+src/prefect/client/{orion.py => orchestration.py},1,24,9
+src/prefect/collection_blocks_data.json,2,237,237
+src/prefect/concurrency.py,3,169,169
+src/prefect/concurrency/__init__.py,1,0,0
+src/prefect/concurrency/asyncio.py,20,224,176
+src/prefect/concurrency/common.py,2,0,0
+src/prefect/concurrency/context.py,2,30,4
+src/prefect/concurrency/events.py,8,81,22
+src/prefect/concurrency/services.py,12,73,107
+src/prefect/concurrency/sync.py,19,267,119
+src/prefect/concurrency/v1/__init__.py,1,0,0
+src/prefect/concurrency/v1/_asyncio.py,1,63,0
+src/prefect/concurrency/v1/asyncio.py,4,176,83
+src/prefect/concurrency/v1/context.py,2,33,4
+src/prefect/concurrency/v1/events.py,1,61,0
+src/prefect/concurrency/v1/services.py,2,149,79
+src/prefect/concurrency/v1/sync.py,3,99,8
+src/prefect/concurrency/v1/{events.py => _events.py},1,13,15
+src/prefect/concurrency/{events.py => _events.py},1,10,10
+src/prefect/context.py,178,1771,1156
+src/prefect/core/__init__.py,3,1,1
+src/prefect/core/client.py,18,278,278
+src/prefect/core/flow.py,31,188,84
+src/prefect/core/futures.py,2,8,1
+src/prefect/core/orion/__init__.py,2,0,0
+src/prefect/core/orion/client.py,4,43,43
+src/prefect/core/orion/flow_runs.py,3,10,8
+src/prefect/core/orion/flows.py,5,43,80
+src/prefect/core/utilities.py,7,29,6
+src/prefect/core/utilities/__init__.py,1,0,0
+src/prefect/core/utilities/logging.py,5,78,5
+src/prefect/core/utilities/logging.yml,4,76,6
+src/prefect/core/utilities/settings.py,2,25,1
+src/prefect/deployments.py,258,3112,2123
+src/prefect/deployments/__init__.py,9,46,27
+src/prefect/deployments/base.py,38,423,462
+src/prefect/deployments/deployments.py,34,457,1295
+src/prefect/deployments/flow_runs.py,3,212,2
+src/prefect/deployments/recipes/azure/prefect.yaml,2,38,2
+src/prefect/deployments/recipes/docker-azure/prefect.yaml,3,55,4
+src/prefect/deployments/recipes/docker-gcs/prefect.yaml,2,15,11
+src/prefect/deployments/recipes/docker-git/prefect.yaml,3,15,11
+src/prefect/deployments/recipes/docker-s3/prefect.yaml,2,17,13
+src/prefect/deployments/recipes/docker/prefect.yaml,2,11,7
+src/prefect/deployments/recipes/gcs/prefect.yaml,2,8,8
+src/prefect/deployments/recipes/git/prefect.yaml,1,1,1
+src/prefect/deployments/recipes/local/prefect.yaml,1,1,1
+src/prefect/deployments/recipes/s3/prefect.yaml,1,6,6
+src/prefect/deployments/runner.py,58,1317,496
+src/prefect/deployments/schedules.py,4,77,27
+src/prefect/deployments/script.py,4,165,8
+src/prefect/deployments/specification.py,2,18,18
+src/prefect/deployments/steps/__init__.py,4,8,3
+src/prefect/deployments/steps/core.py,12,71,30
+src/prefect/deployments/steps/pull.py,14,314,180
+src/prefect/deployments/steps/utility.py,9,45,11
+src/prefect/deployments/templates/prefect.yaml,1,1,0
+src/prefect/deprecated/__init__.py,4,0,0
+src/prefect/deprecated/data_documents.py,12,370,370
+src/prefect/deprecated/deployments.py,16,467,463
+src/prefect/deprecated/packaging/__init__.py,2,12,12
+src/prefect/deprecated/packaging/base.py,3,7,104
+src/prefect/deprecated/packaging/docker.py,5,23,175
+src/prefect/deprecated/packaging/file.py,4,17,104
+src/prefect/deprecated/packaging/orion.py,4,16,91
+src/prefect/deprecated/packaging/serializers.py,4,16,236
+src/prefect/docker.py,13,164,21
+src/prefect/docker/__init__.py,7,475,70
+src/prefect/docker/docker_image.py,3,97,12
+src/prefect/engine.py,485,7295,7154
+src/prefect/events/__init__.py,9,102,9
+src/prefect/events/actions.py,14,348,53
+src/prefect/events/cli/__init__.py,1,0,0
+src/prefect/events/cli/automations.py,8,392,55
+src/prefect/events/clients.py,38,1046,253
+src/prefect/events/filters.py,12,334,83
+src/prefect/events/instrument.py,8,187,187
+src/prefect/events/related.py,15,370,144
+src/prefect/events/schemas.py,14,861,861
+src/prefect/events/schemas/__init__.py,2,5,5
+src/prefect/events/schemas/automations.py,17,534,87
+src/prefect/events/schemas/deployment_triggers.py,13,611,501
+src/prefect/events/schemas/events.py,6,367,85
+src/prefect/events/schemas/labelling.py,3,117,15
+src/prefect/events/utilities.py,19,134,43
+src/prefect/events/worker.py,19,300,170
+src/prefect/exceptions.py,94,688,279
+src/prefect/executors.py,73,1076,667
+src/prefect/experimental/artifacts.py,1,141,0
+src/prefect/experimental/cli/__init__.py,2,0,0
+src/prefect/experimental/cli/artifact.py,1,218,0
+src/prefect/experimental/cli/worker.py,5,137,24
+src/prefect/experimental/workers/__init__.py,1,1,0
+src/prefect/experimental/workers/base.py,19,1025,301
+src/prefect/experimental/workers/process.py,9,248,60
+src/prefect/filesystems.py,117,1357,967
+src/prefect/flow_engine.py,48,1711,759
+src/prefect/flow_runners.py,137,2050,2054
+src/prefect/flow_runners/__init__.py,3,54,54
+src/prefect/flow_runners/base.py,7,182,182
+src/prefect/flow_runners/docker.py,5,39,21
+src/prefect/flow_runners/kubernetes.py,28,761,772
+src/prefect/flow_runners/subprocess.py,6,202,202
+src/prefect/flow_runs.py,14,558,66
+src/prefect/flows.py,321,4942,2354
+src/prefect/futures.py,128,1879,1207
+src/prefect/infrastructure/__init__.py,9,38,29
+src/prefect/infrastructure/base.py,32,406,80
+src/prefect/infrastructure/container.py,9,94,830
+src/prefect/infrastructure/docker.py,15,857,165
+src/prefect/infrastructure/kubernetes.py,68,1278,1278
+src/prefect/infrastructure/process.py,39,363,419
+src/prefect/infrastructure/provisioners/__init__.py,8,67,11
+src/prefect/infrastructure/provisioners/cloud_run.py,7,487,46
+src/prefect/infrastructure/provisioners/coiled.py,3,255,6
+src/prefect/infrastructure/provisioners/container_instance.py,10,1234,154
+src/prefect/infrastructure/provisioners/ecs.py,11,1466,109
+src/prefect/infrastructure/provisioners/modal.py,5,264,13
+src/prefect/infrastructure/submission.py,14,78,78
+src/prefect/infrastructure/subprocess.py,1,56,0
+src/prefect/infrastructure/{docker.py => container.py},1,5,5
+src/prefect/infrastructure/{subprocess.py => process.py},1,1,1
+src/prefect/input/__init__.py,3,36,3
+src/prefect/input/actions.py,5,164,20
+src/prefect/input/run_input.py,19,891,171
+src/prefect/locking/__init__.py,1,0,0
+src/prefect/locking/filesystem.py,5,266,21
+src/prefect/locking/memory.py,2,218,3
+src/prefect/locking/protocol.py,2,123,1
+src/prefect/logging/__init__.py,8,21,18
+src/prefect/logging/configuration.py,10,189,80
+src/prefect/logging/filters.py,6,56,15
+src/prefect/logging/formatters.py,13,174,41
+src/prefect/logging/handlers.py,88,998,655
+src/prefect/logging/highlighters.py,6,13,13
+src/prefect/logging/loggers.py,36,500,105
+src/prefect/logging/logging.yml,31,251,204
+src/prefect/main.py,13,124,42
+src/prefect/manifests.py,9,45,45
+src/prefect/new_flow_engine.py,28,1046,359
+src/prefect/new_futures.py,4,189,189
+src/prefect/new_task_engine.py,29,1405,672
+src/prefect/new_task_runners.py,7,412,412
+src/prefect/orion/__init__.py,17,75,75
+src/prefect/orion/alembic/README,2,1,1
+src/prefect/orion/alembic/__init__.py,1,0,0
+src/prefect/orion/alembic/env.py,1,108,0
+src/prefect/orion/alembic/postgresql/__init__.py,1,0,0
+src/prefect/orion/alembic/script.py.mako,1,25,0
+src/prefect/orion/alembic/sqlite/__init__.py,1,0,0
+src/prefect/orion/api/__init__.py,36,58,32
+src/prefect/orion/api/admin.py,26,143,58
+src/prefect/orion/api/block_capabilities.py,3,30,5
+src/prefect/orion/api/block_data.py,4,27,12
+src/prefect/orion/api/block_documents.py,28,502,200
+src/prefect/orion/api/block_schemas.py,19,435,187
+src/prefect/orion/api/block_specs.py,8,174,333
+src/prefect/orion/api/block_types.py,12,533,185
+src/prefect/orion/api/blocks.py,19,144,371
+src/prefect/orion/api/concurrency_limits.py,18,219,60
+src/prefect/orion/api/data.py,23,221,221
+src/prefect/orion/api/dependencies.py,38,277,159
+src/prefect/orion/api/deployments.py,34,802,414
+src/prefect/orion/api/flow_run_alert_policies.py,2,117,117
+src/prefect/orion/api/flow_run_history.py,2,79,57
+src/prefect/orion/api/flow_run_notification_policies.py,5,148,29
+src/prefect/orion/api/flow_run_states.py,25,121,70
+src/prefect/orion/api/flow_runs.py,110,715,371
+src/prefect/orion/api/flows.py,60,337,187
+src/prefect/orion/api/logs.py,14,89,45
+src/prefect/orion/api/package-lock.json,2,3,3
+src/prefect/orion/api/root.py,1,13,0
+src/prefect/orion/api/run_history.py,7,137,175
+src/prefect/orion/api/saved_searches.py,12,138,39
+src/prefect/orion/api/schedules.py,1,207,50
+src/prefect/orion/api/schemas.py,8,103,20
+src/prefect/orion/api/server.py,172,1376,853
+src/prefect/orion/api/static/logomark-color.png,2,0,0
+src/prefect/orion/api/static/prefect-logo-mark-gradient.png,1,0,0
+src/prefect/orion/api/task_run_states.py,14,105,54
+src/prefect/orion/api/task_runs.py,62,395,175
+src/prefect/orion/api/ui.py,5,209,25
+src/prefect/orion/api/ui/flow_runs.py,7,110,27
+src/prefect/orion/api/work_queues.py,6,271,52
+src/prefect/orion/api/workers.py,13,669,119
+src/prefect/orion/api/{block_data.py => blocks.py},1,9,7
+src/prefect/orion/api/{block_documents.py => blocks.py},1,0,0
+src/prefect/orion/api/{block_schemas.py => block_specs.py},1,0,0
+src/prefect/orion/api/{block_specs.py => block_schemas.py},1,0,0
+src/prefect/orion/api/{blocks.py => block_documents.py},1,0,0
+src/prefect/orion/api/{flow_run_history.py => run_history.py},1,29,27
+src/prefect/orion/api/{ui.py => flow_run_history.py},1,12,17
+src/prefect/orion/collection_blocks_data.json,4,2411,1239
+src/prefect/orion/data.py,6,68,68
+src/prefect/orion/database/__init__.py,8,4,4
+src/prefect/orion/database/alembic.ini,4,4,95
+src/prefect/orion/database/alembic.py,1,6,11
+src/prefect/orion/database/alembic_commands.py,5,58,18
+src/prefect/orion/database/configurations.py,60,1943,1198
+src/prefect/orion/database/connections.py,3,248,7
+src/prefect/orion/database/dependencies.py,37,429,171
+src/prefect/orion/database/interface.py,71,700,1112
+src/prefect/orion/database/migrations.py,1,51,0
+src/prefect/orion/database/mixins.py,1,546,0
+src/prefect/orion/database/models.py,1,34,0
+src/prefect/orion/database/orm_models.py,129,1824,753
+src/prefect/orion/database/query_components.py,41,1383,594
+src/prefect/orion/database/sql/postgres/get-runs-from-worker-queues.sql.jinja,3,141,28
+src/prefect/orion/database/sql/sqlite/get-runs-from-worker-queues.sql.jinja,3,121,30
+src/prefect/orion/database/{alembic.py => alembic_commands.py},1,0,0
+src/prefect/orion/database/{configurations.py => interface.py},1,16,15
+src/prefect/orion/database/{connections.py => configurations.py},1,3,3
+src/prefect/orion/database/{migrations.py => alembic.py},1,20,7
+src/prefect/orion/database/{mixins.py => orm_models.py},1,10,11
+src/prefect/orion/dependencies.py,2,29,29
+src/prefect/orion/exceptions.py,6,23,5
+src/prefect/orion/models/__init__.py,1,11,0
+src/prefect/orion/models/account_info.py,1,39,0
+src/prefect/orion/models/agents.py,1,43,0
+src/prefect/orion/models/artifacts.py,1,50,0
+src/prefect/orion/models/block_data.py,19,226,43
+src/prefect/orion/models/block_documents.py,55,1624,798
+src/prefect/orion/models/block_registration.py,4,190,6
+src/prefect/orion/models/block_schemas.py,32,1106,289
+src/prefect/orion/models/block_specs.py,9,169,169
+src/prefect/orion/models/block_types.py,8,386,25
+src/prefect/orion/models/blocks.py,5,42,16
+src/prefect/orion/models/concurrency_limits.py,20,278,87
+src/prefect/orion/models/configuration.py,3,57,11
+src/prefect/orion/models/configurations.py,1,0,39
+src/prefect/orion/models/data.py,4,66,66
+src/prefect/orion/models/ddl.py,4,94,94
+src/prefect/orion/models/dependencies.py,2,22,22
+src/prefect/orion/models/deployments.py,109,1521,801
+src/prefect/orion/models/flow_run_alert_policies.py,5,221,221
+src/prefect/orion/models/flow_run_notification_policies.py,6,219,47
+src/prefect/orion/models/flow_run_states.py,57,406,336
+src/prefect/orion/models/flow_runs.py,118,1142,635
+src/prefect/orion/models/flows.py,60,646,388
+src/prefect/orion/models/logs.py,15,228,273
+src/prefect/orion/models/orm.py,118,2047,2119
+src/prefect/orion/models/saved_searches.py,16,261,115
+src/prefect/orion/models/task_run_states.py,80,738,668
+src/prefect/orion/models/task_runs.py,91,912,526
+src/prefect/orion/models/work_queues.py,33,776,325
+src/prefect/orion/models/workers.py,5,794,234
+src/prefect/orion/models/{account_info.py => configurations.py},1,8,8
+src/prefect/orion/models/{block_data.py => blocks.py},1,35,41
+src/prefect/orion/models/{block_documents.py => blocks.py},1,0,0
+src/prefect/orion/models/{block_schemas.py => block_specs.py},1,0,0
+src/prefect/orion/models/{block_specs.py => block_schemas.py},2,38,38
+src/prefect/orion/models/{blocks.py => block_documents.py},1,0,0
+src/prefect/orion/orchestration/__init__.py,6,9,9
+src/prefect/orion/orchestration/core_policy.py,160,1909,1125
+src/prefect/orion/orchestration/dependencies.py,14,189,66
+src/prefect/orion/orchestration/global_policy.py,57,870,525
+src/prefect/orion/orchestration/policies.py,7,81,35
+src/prefect/orion/orchestration/rule_priority.py,2,7,7
+src/prefect/orion/orchestration/rules.py,132,2155,1187
+src/prefect/orion/schemas/__init__.py,23,31,21
+src/prefect/orion/schemas/actions.py,36,1080,617
+src/prefect/orion/schemas/api.py,6,38,79
+src/prefect/orion/schemas/core.py,202,1896,999
+src/prefect/orion/schemas/data.py,32,344,238
+src/prefect/orion/schemas/filters.py,65,3313,1792
+src/prefect/orion/schemas/inputs.py,2,9,8
+src/prefect/orion/schemas/pagination.py,3,13,13
+src/prefect/orion/schemas/responses.py,37,409,165
+src/prefect/orion/schemas/schedules.py,48,730,401
+src/prefect/orion/schemas/sorting.py,10,175,76
+src/prefect/orion/schemas/states.py,74,431,306
+src/prefect/orion/schemas/{api.py => core.py},1,29,1
+src/prefect/orion/schemas/{inputs.py => actions.py},1,1,1
+src/prefect/orion/serializers.py,9,105,105
+src/prefect/orion/services/__init__.py,12,10,10
+src/prefect/orion/services/agent.py,4,15,7
+src/prefect/orion/services/cancellation_cleanup.py,3,190,45
+src/prefect/orion/services/flow_run_alerts.py,10,180,180
+src/prefect/orion/services/flow_run_notifications.py,16,281,125
+src/prefect/orion/services/late_runs.py,33,300,176
+src/prefect/orion/services/light_loop.py,2,83,83
+src/prefect/orion/services/loop_service.py,32,350,159
+src/prefect/orion/services/pause_expirations.py,1,84,0
+src/prefect/orion/services/scheduler.py,43,598,276
+src/prefect/orion/services/telemetry.py,16,246,123
+src/prefect/orion/states.py,10,89,89
+src/prefect/orion/utilities/__init__.py,9,9,9
+src/prefect/orion/utilities/asyncio.py,2,8,8
+src/prefect/orion/utilities/database.py,112,1929,1199
+src/prefect/orion/utilities/encryption.py,2,45,4
+src/prefect/orion/utilities/enum.py,4,23,8
+src/prefect/orion/utilities/filesystem.py,3,22,22
+src/prefect/orion/utilities/functions.py,7,68,69
+src/prefect/orion/utilities/names.py,3,64,60
+src/prefect/orion/utilities/parameters.py,3,34,34
+src/prefect/orion/utilities/schemas.py,53,674,195
+src/prefect/orion/utilities/server.py,24,234,98
+src/prefect/orion/utilities/settings.py,7,33,6
+src/prefect/orion/{alembic => database/migrations}/__init__.py,1,0,0
+src/prefect/orion/{alembic => database/migrations}/env.py,1,2,14
+src/prefect/orion/{alembic => database/migrations}/postgresql/__init__.py,1,0,0
+src/prefect/orion/{alembic => database/migrations}/script.py.mako,1,0,0
+src/prefect/orion/{alembic => database/migrations}/sqlite/__init__.py,1,0,0
+src/prefect/orion/{api => schemas}/schedules.py,1,0,0
+src/prefect/orion/{api/schemas.py => schemas/api.py},1,6,1
+src/prefect/orion/{database/models.py => models/orm.py},1,2,3
+src/prefect/packaging/__init__.py,5,11,11
+src/prefect/packaging/base.py,14,118,42
+src/prefect/packaging/docker.py,16,177,41
+src/prefect/packaging/file.py,15,133,65
+src/prefect/packaging/orion.py,10,73,16
+src/prefect/packaging/script.py,6,18,154
+src/prefect/packaging/serializers.py,6,229,46
+src/prefect/persistence.py,3,100,100
+src/prefect/plugins.py,9,170,96
+src/prefect/profiles.toml,6,29,12
+src/prefect/projects/__init__.py,3,9,9
+src/prefect/projects/base.py,9,437,96
+src/prefect/projects/recipes/docker-gcs/prefect.yaml,7,55,9
+src/prefect/projects/recipes/docker-git/prefect.yaml,7,42,3
+src/prefect/projects/recipes/docker-s3/prefect.yaml,7,54,8
+src/prefect/projects/recipes/docker/prefect.yaml,6,42,4
+src/prefect/projects/recipes/gcs/prefect.yaml,5,43,7
+src/prefect/projects/recipes/git/prefect.yaml,4,25,0
+src/prefect/projects/recipes/local/prefect.yaml,3,23,0
+src/prefect/projects/recipes/s3/prefect.yaml,5,42,6
+src/prefect/projects/steps/__init__.py,4,5,2
+src/prefect/projects/steps/core.py,8,177,21
+src/prefect/projects/steps/pull.py,8,158,14
+src/prefect/projects/steps/utility.py,3,231,1
+src/prefect/projects/templates/deployment.yaml,5,35,35
+src/prefect/projects/templates/prefect.yaml,2,25,0
+src/prefect/py.typed,1,0,0
+src/prefect/pydantic/__init__.py,10,94,94
+src/prefect/pydantic/main.py,8,45,45
+src/prefect/records/__init__.py,4,3,3
+src/prefect/records/base.py,5,254,254
+src/prefect/records/cache_policies.py,3,212,33
+src/prefect/records/filesystem.py,5,217,217
+src/prefect/records/memory.py,4,187,187
+src/prefect/records/records.py,2,7,7
+src/prefect/records/result_store.py,9,47,25
+src/prefect/records/store.py,3,9,9
+src/prefect/results.py,88,2828,1798
+src/prefect/runner.py,9,1018,38
+src/prefect/runner/__init__.py,4,5,1
+src/prefect/runner/runner.py,57,1331,637
+src/prefect/runner/server.py,19,430,113
+src/prefect/runner/storage.py,21,997,194
+src/prefect/runner/submit.py,8,302,57
+src/prefect/runner/utils.py,5,117,21
+src/prefect/runtime/__init__.py,4,15,1
+src/prefect/runtime/deployment.py,8,192,22
+src/prefect/runtime/flow_run.py,20,418,71
+src/prefect/runtime/task_run.py,8,179,19
+src/prefect/schedules.py,2,231,0
+src/prefect/serializers.py,46,772,508
+src/prefect/server/__init__.py,3,7,4
+src/prefect/server/api/__init__.py,9,10,0
+src/prefect/server/api/admin.py,8,18,18
+src/prefect/server/api/artifacts.py,11,195,51
+src/prefect/server/api/automations.py,14,422,178
+src/prefect/server/api/block_capabilities.py,7,16,11
+src/prefect/server/api/block_documents.py,10,44,16
+src/prefect/server/api/block_schemas.py,8,32,16
+src/prefect/server/api/block_types.py,8,36,25
+src/prefect/server/api/clients.py,17,305,59
+src/prefect/server/api/collections.py,8,100,25
+src/prefect/server/api/collections_data/views/aggregate-worker-metadata.json,11,1723,41
+src/prefect/server/api/concurrency_limits.py,13,167,35
+src/prefect/server/api/concurrency_limits_v2.py,14,339,65
+src/prefect/server/api/csrf_token.py,2,36,2
+src/prefect/server/api/dependencies.py,11,99,21
+src/prefect/server/api/deployments.py,48,777,288
+src/prefect/server/api/events.py,17,393,89
+src/prefect/server/api/flow_run_notification_policies.py,7,16,15
+src/prefect/server/api/flow_run_states.py,7,13,10
+src/prefect/server/api/flow_runs.py,30,236,181
+src/prefect/server/api/flows.py,10,78,24
+src/prefect/server/api/logs.py,7,15,12
+src/prefect/server/api/middleware.py,1,72,0
+src/prefect/server/api/root.py,7,35,13
+src/prefect/server/api/run_history.py,12,53,42
+src/prefect/server/api/saved_searches.py,8,17,18
+src/prefect/server/api/server.py,98,914,498
+src/prefect/server/api/task_run_states.py,7,13,10
+src/prefect/server/api/task_runs.py,21,221,291
+src/prefect/server/api/task_workers.py,3,37,2
+src/prefect/server/api/templates.py,3,3,3
+src/prefect/server/api/ui/__init__.py,4,4,3
+src/prefect/server/api/ui/flow_runs.py,13,79,34
+src/prefect/server/api/ui/flows.py,5,34,21
+src/prefect/server/api/ui/schemas.py,2,69,4
+src/prefect/server/api/ui/task_runs.py,14,247,72
+src/prefect/server/api/validation.py,6,464,85
+src/prefect/server/api/variables.py,5,179,8
+src/prefect/server/api/work_queues.py,16,113,97
+src/prefect/server/api/workers.py,28,292,178
+src/prefect/server/collection_blocks_data.json,5,4874,1062
+src/prefect/server/database/__init__.py,2,14,0
+src/prefect/server/database/alembic.ini,2,2,2
+src/prefect/server/database/alembic_commands.py,8,38,17
+src/prefect/server/database/configurations.py,30,393,153
+src/prefect/server/database/dependencies.py,12,367,129
+src/prefect/server/database/interface.py,27,326,323
+src/prefect/server/database/orm_models.py,69,3766,3763
+src/prefect/server/database/query_components.py,31,1809,1439
+src/prefect/server/database/sql/postgres/get-runs-from-worker-queues.sql.jinja,2,2,1
+src/prefect/server/database/sql/sqlite/get-runs-from-worker-queues.sql.jinja,2,2,1
+src/prefect/server/events/__init__.py,1,3,0
+src/prefect/server/events/actions.py,16,2007,262
+src/prefect/server/events/clients.py,4,287,15
+src/prefect/server/events/counting.py,9,347,42
+src/prefect/server/events/filters.py,11,1027,407
+src/prefect/server/events/jinja_filters.py,4,114,42
+src/prefect/server/events/messaging.py,6,94,10
+src/prefect/server/events/models/__init__.py,1,0,0
+src/prefect/server/events/models/automations.py,14,406,46
+src/prefect/server/events/models/composite_trigger_child_firing.py,5,122,10
+src/prefect/server/events/ordering.py,6,239,29
+src/prefect/server/events/pipeline.py,4,51,15
+src/prefect/server/events/schemas/__init__.py,1,0,0
+src/prefect/server/events/schemas/automations.py,12,898,134
+src/prefect/server/events/schemas/events.py,16,452,99
+src/prefect/server/events/schemas/labelling.py,2,116,14
+src/prefect/server/events/services/__init__.py,1,0,0
+src/prefect/server/events/services/actions.py,6,86,36
+src/prefect/server/events/services/event_logger.py,8,86,18
+src/prefect/server/events/services/event_persister.py,12,288,44
+src/prefect/server/events/services/triggers.py,8,92,20
+src/prefect/server/events/storage/__init__.py,3,104,5
+src/prefect/server/events/storage/database.py,12,390,62
+src/prefect/server/events/stream.py,2,142,4
+src/prefect/server/events/triggers.py,16,1447,318
+src/prefect/server/exceptions.py,2,7,2
+src/prefect/server/models/__init__.py,8,13,8
+src/prefect/server/models/agents.py,12,120,297
+src/prefect/server/models/artifacts.py,20,971,487
+src/prefect/server/models/block_documents.py,18,368,311
+src/prefect/server/models/block_registration.py,9,86,54
+src/prefect/server/models/block_schemas.py,16,396,364
+src/prefect/server/models/block_types.py,11,192,162
+src/prefect/server/models/concurrency_limits.py,12,153,152
+src/prefect/server/models/concurrency_limits_v2.py,15,717,411
+src/prefect/server/models/configuration.py,6,39,39
+src/prefect/server/models/csrf_token.py,11,159,54
+src/prefect/server/models/deployments.py,43,1304,825
+src/prefect/server/models/events.py,4,295,11
+src/prefect/server/models/flow_run_input.py,5,130,39
+src/prefect/server/models/flow_run_notification_policies.py,10,76,73
+src/prefect/server/models/flow_run_states.py,5,39,35
+src/prefect/server/models/flow_runs.py,29,528,343
+src/prefect/server/models/flows.py,9,70,33
+src/prefect/server/models/logs.py,14,59,40
+src/prefect/server/models/saved_searches.py,8,73,73
+src/prefect/server/models/task_run_states.py,5,38,39
+src/prefect/server/models/task_runs.py,23,453,306
+src/prefect/server/models/task_workers.py,4,108,4
+src/prefect/server/models/variables.py,10,295,127
+src/prefect/server/models/work_queues.py,23,504,296
+src/prefect/server/models/workers.py,14,699,457
+src/prefect/server/orchestration/core_policy.py,48,1298,621
+src/prefect/server/orchestration/dependencies.py,6,98,52
+src/prefect/server/orchestration/global_policy.py,9,239,133
+src/prefect/server/orchestration/instrumentation_policies.py,3,73,6
+src/prefect/server/orchestration/policies.py,3,50,9
+src/prefect/server/orchestration/rules.py,18,286,151
+src/prefect/server/schemas/__init__.py,3,14,2
+src/prefect/server/schemas/actions.py,80,1404,844
+src/prefect/server/schemas/core.py,64,606,310
+src/prefect/server/schemas/filters.py,52,2634,1673
+src/prefect/server/schemas/graph.py,5,13,10
+src/prefect/server/schemas/internal.py,3,19,7
+src/prefect/server/schemas/responses.py,44,635,272
+src/prefect/server/schemas/schedules.py,24,182,216
+src/prefect/server/schemas/sorting.py,13,353,267
+src/prefect/server/schemas/states.py,7,233,169
+src/prefect/server/schemas/statuses.py,4,40,0
+src/prefect/server/services/__init__.py,4,8,1
+src/prefect/server/services/base.py,1,293,1
+src/prefect/server/services/cancellation_cleanup.py,19,206,149
+src/prefect/server/services/flow_run_notifications.py,11,56,37
+src/prefect/server/services/foreman.py,8,308,67
+src/prefect/server/services/late_runs.py,12,52,34
+src/prefect/server/services/loop_service.py,18,86,267
+src/prefect/server/services/pause_expirations.py,9,34,22
+src/prefect/server/services/scheduler.py,11,122,72
+src/prefect/server/services/task_run_recorder.py,12,382,108
+src/prefect/server/services/task_scheduling.py,9,140,140
+src/prefect/server/services/telemetry.py,15,46,30
+src/prefect/server/task_queue.py,4,106,3
+src/prefect/server/utilities/database.py,18,580,458
+src/prefect/server/utilities/encryption.py,3,14,6
+src/prefect/server/utilities/http.py,1,20,0
+src/prefect/server/utilities/messaging/__init__.py,7,291,68
+src/prefect/server/utilities/messaging/memory.py,7,429,56
+src/prefect/server/utilities/names.py,1,1,0
+src/prefect/server/utilities/schemas.py,4,35,515
+src/prefect/server/utilities/schemas/__init__.py,5,23,6
+src/prefect/server/utilities/schemas/bases.py,21,504,277
+src/prefect/server/utilities/schemas/fields.py,3,48,48
+src/prefect/server/utilities/schemas/serializers.py,4,40,10
+src/prefect/server/utilities/schemas/transformations.py,3,111,111
+src/prefect/server/utilities/schemas/validators.py,2,36,36
+src/prefect/server/utilities/server.py,9,49,98
+src/prefect/server/utilities/subscriptions.py,8,89,33
+src/prefect/server/utilities/user_templates.py,4,155,17
+src/prefect/settings.py,313,7528,7968
+src/prefect/settings/__init__.py,4,65,4
+src/prefect/settings/base.py,13,302,64
+src/prefect/settings/constants.py,2,10,2
+src/prefect/settings/context.py,1,65,0
+src/prefect/settings/legacy.py,8,187,20
+src/prefect/settings/models/__init__.py,1,0,0
+src/prefect/settings/models/api.py,9,72,26
+src/prefect/settings/models/cli.py,6,53,21
+src/prefect/settings/models/client.py,6,124,31
+src/prefect/settings/models/cloud.py,1,58,0
+src/prefect/settings/models/deployments.py,6,62,24
+src/prefect/settings/models/experiments.py,10,51,24
+src/prefect/settings/models/flows.py,2,39,10
+src/prefect/settings/models/internal.py,6,44,23
+src/prefect/settings/models/logging.py,8,182,40
+src/prefect/settings/models/results.py,6,69,24
+src/prefect/settings/models/root.py,14,970,524
+src/prefect/settings/models/runner.py,7,108,37
+src/prefect/settings/models/server/__init__.py,1,1,0
+src/prefect/settings/models/server/api.py,9,171,26
+src/prefect/settings/models/server/database.py,12,367,54
+src/prefect/settings/models/server/deployments.py,6,49,23
+src/prefect/settings/models/server/ephemeral.py,7,60,24
+src/prefect/settings/models/server/events.py,8,175,24
+src/prefect/settings/models/server/flow_run_graph.py,6,59,23
+src/prefect/settings/models/server/root.py,8,169,28
+src/prefect/settings/models/server/services.py,8,644,131
+src/prefect/settings/models/server/tasks.py,6,115,32
+src/prefect/settings/models/server/ui.py,6,74,24
+src/prefect/settings/models/tasks.py,5,135,46
+src/prefect/settings/models/testing.py,6,74,24
+src/prefect/settings/models/ui.py,2,0,0
+src/prefect/settings/models/worker.py,6,84,38
+src/prefect/settings/profiles.py,5,426,21
+src/prefect/settings/sources.py,13,415,63
+src/prefect/software/__init__.py,3,3,3
+src/prefect/software/base.py,8,62,62
+src/prefect/software/conda.py,14,229,229
+src/prefect/software/pip.py,12,186,186
+src/prefect/software/python.py,17,143,143
+src/prefect/states.py,90,1603,758
+src/prefect/storage.py,1,155,0
+src/prefect/task_engine.py,97,2297,1427
+src/prefect/task_runners.py,91,1527,1410
+src/prefect/task_runs.py,8,274,25
+src/prefect/task_server.py,24,501,164
+src/prefect/task_worker.py,23,306,152
+src/prefect/tasks.py,274,3978,2089
+src/prefect/telemetry/__init__.py,2,1,0
+src/prefect/telemetry/bootstrap.py,5,65,18
+src/prefect/telemetry/instrumentation.py,4,137,13
+src/prefect/telemetry/logging.py,1,26,0
+src/prefect/telemetry/processors.py,2,8,8
+src/prefect/telemetry/run_telemetry.py,10,374,127
+src/prefect/telemetry/services.py,4,105,35
+src/prefect/testing/__init__.py,1,0,0
+src/prefect/testing/cli.py,27,483,207
+src/prefect/testing/docker.py,3,25,5
+src/prefect/testing/fixtures.py,43,605,121
+src/prefect/testing/utilities.py,47,427,233
+src/prefect/transactions.py,35,787,317
+src/prefect/types/__init__.py,21,399,211
+src/prefect/types/_datetime.py,6,131,6
+src/prefect/types/entrypoint.py,1,13,0
+src/prefect/utilities.py,1,0,13
+src/prefect/utilities/__init__.py,7,10,10
+src/prefect/utilities/_deprecated.py,1,38,0
+src/prefect/utilities/_engine.py,2,96,1
+src/prefect/utilities/_git.py,1,34,0
+src/prefect/utilities/annotations.py,9,212,59
+src/prefect/utilities/asyncio.py,40,548,207
+src/prefect/utilities/asyncutils.py,31,397,389
+src/prefect/utilities/callables.py,50,619,128
+src/prefect/utilities/collections.py,45,1509,787
+src/prefect/utilities/compat.py,50,268,244
+src/prefect/utilities/context.py,4,60,8
+src/prefect/utilities/dispatch.py,20,261,48
+src/prefect/utilities/dockerutils.py,4,124,37
+src/prefect/utilities/engine.py,30,1144,329
+src/prefect/utilities/enum.py,2,0,66
+src/prefect/utilities/evaluation.py,1,24,10
+src/prefect/utilities/files.py,1,0,9
+src/prefect/utilities/filesystem.py,16,65,45
+src/prefect/utilities/generics.py,2,19,1
+src/prefect/utilities/hashing.py,20,184,89
+src/prefect/utilities/httpx.py,15,456,494
+src/prefect/utilities/importtools.py,20,718,256
+src/prefect/utilities/logging.py,47,784,839
+src/prefect/utilities/logging.yml,16,129,109
+src/prefect/utilities/math.py,7,96,20
+src/prefect/utilities/names.py,3,76,4
+src/prefect/utilities/processutils.py,23,633,151
+src/prefect/utilities/pydantic.py,23,470,198
+src/prefect/utilities/render_swagger.py,5,159,17
+src/prefect/utilities/schema_tools/__init__.py,4,19,2
+src/prefect/utilities/schema_tools/hydration.py,9,408,88
+src/prefect/utilities/schema_tools/validation.py,8,356,59
+src/prefect/utilities/scripts.py,3,11,50
+src/prefect/utilities/services.py,18,231,46
+src/prefect/utilities/settings.py,82,590,276
+src/prefect/utilities/slugify.py,2,7,1
+src/prefect/utilities/templating.py,11,376,112
+src/prefect/utilities/testing.py,33,732,221
+src/prefect/utilities/text.py,3,34,2
+src/prefect/utilities/timeout.py,4,58,9
+src/prefect/utilities/urls.py,6,299,26
+src/prefect/utilities/visualization.py,6,252,30
+src/prefect/utilities/{asyncio.py => asyncutils.py},1,0,0
+src/prefect/utilities/{evaluation.py => scripts.py},1,0,0
+src/prefect/variables.py,14,425,166
+src/prefect/workers/__init__.py,3,3,1
+src/prefect/workers/base.py,84,1468,774
+src/prefect/workers/block.py,10,248,239
+src/prefect/workers/cloud.py,3,10,1
+src/prefect/workers/process.py,29,465,411
+src/prefect/workers/server.py,9,98,30
+src/prefect/workers/utilities.py,5,66,7
+src/prefect/{ => deployments}/deployments.py,1,1,1
+src/prefect/{ => deprecated}/packaging/base.py,1,21,0
+src/prefect/{ => deprecated}/packaging/docker.py,1,18,2
+src/prefect/{ => deprecated}/packaging/file.py,1,21,3
+src/prefect/{ => deprecated}/packaging/orion.py,1,21,3
+src/prefect/{ => deprecated}/packaging/serializers.py,1,22,1
+src/prefect/{ => settings}/profiles.toml,1,0,0
+src/prefect/{_context.py => utilities/context.py},1,0,0
+src/prefect/{agent/base_agent.py => agents/agent.py},1,7,6
+src/prefect/{agents => }/agent.py,1,0,0
+src/prefect/{client.py => client/orion.py},1,4,204
+src/prefect/{core => }/futures.py,1,0,0
+src/prefect/{core => }/utilities.py,1,2,3
+src/prefect/{core/flow.py => flows.py},1,1,1
+src/prefect/{deployments => packaging}/script.py,1,37,58
+src/prefect/{deployments.py => deployments/base.py},1,129,217
+src/prefect/{deployments/base.py => deployments.py},1,30,22
+src/prefect/{docker.py => utilities/dockerutils.py},1,0,0
+src/prefect/{docker/__init__.py => docker.py},1,104,1
+src/prefect/{executors.py => task_runners.py},1,0,0
+src/prefect/{experimental => }/artifacts.py,1,0,5
+src/prefect/{experimental => }/cli/artifact.py,1,0,0
+src/prefect/{experimental => }/cli/worker.py,1,1,1
+src/prefect/{experimental => }/workers/__init__.py,1,0,0
+src/prefect/{experimental => }/workers/base.py,1,0,0
+src/prefect/{experimental => }/workers/process.py,1,3,3
+src/prefect/{new_flow_engine.py => flow_engine.py},1,0,0
+src/prefect/{new_task_engine.py => task_engine.py},1,0,0
+src/prefect/{orion => server}/api/__init__.py,1,0,0
+src/prefect/{orion => server}/api/admin.py,1,3,3
+src/prefect/{orion => server}/api/block_capabilities.py,1,3,3
+src/prefect/{orion => server}/api/block_documents.py,1,5,5
+src/prefect/{orion => server}/api/block_schemas.py,1,6,6
+src/prefect/{orion => server}/api/block_types.py,1,5,5
+src/prefect/{orion => server}/api/concurrency_limits.py,1,6,6
+src/prefect/{orion => server}/api/dependencies.py,1,0,0
+src/prefect/{orion => server}/api/deployments.py,1,10,10
+src/prefect/{orion => server}/api/flow_run_notification_policies.py,1,6,6
+src/prefect/{orion => server}/api/flow_run_states.py,1,5,5
+src/prefect/{orion => server}/api/flow_runs.py,1,12,12
+src/prefect/{orion => server}/api/flows.py,1,6,6
+src/prefect/{orion => server}/api/logs.py,1,6,6
+src/prefect/{orion => server}/api/root.py,1,1,1
+src/prefect/{orion => server}/api/run_history.py,1,5,5
+src/prefect/{orion => server}/api/saved_searches.py,1,6,6
+src/prefect/{orion => server}/api/server.py,1,9,9
+src/prefect/{orion => server}/api/static/prefect-logo-mark-gradient.png,1,0,0
+src/prefect/{orion => server}/api/task_run_states.py,1,5,5
+src/prefect/{orion => server}/api/task_runs.py,1,11,11
+src/prefect/{orion => server}/api/ui/__init__.py,1,1,1
+src/prefect/{orion => server}/api/ui/flow_runs.py,1,6,6
+src/prefect/{orion => server}/api/work_queues.py,1,7,7
+src/prefect/{orion => server}/api/workers.py,1,7,7
+src/prefect/{orion => server}/collection_blocks_data.json,1,0,0
+src/prefect/{orion => server}/database/__init__.py,1,0,0
+src/prefect/{orion => server}/database/alembic.ini,1,1,1
+src/prefect/{orion => server}/database/alembic_commands.py,1,1,1
+src/prefect/{orion => server}/database/configurations.py,1,0,0
+src/prefect/{orion => server}/database/dependencies.py,1,5,5
+src/prefect/{orion => server}/database/interface.py,1,4,4
+src/prefect/{orion => server}/database/orm_models.py,1,5,5
+src/prefect/{orion => server}/database/query_components.py,1,6,6
+src/prefect/{orion => server}/database/sql/postgres/get-runs-from-worker-queues.sql.jinja,1,0,0
+src/prefect/{orion => server}/database/sql/sqlite/get-runs-from-worker-queues.sql.jinja,1,0,0
+src/prefect/{orion => server}/exceptions.py,1,0,0
+src/prefect/{orion => server}/models/__init__.py,1,0,0
+src/prefect/{orion => server}/models/agents.py,1,3,3
+src/prefect/{orion => server}/models/artifacts.py,1,3,3
+src/prefect/{orion => server}/models/block_documents.py,1,10,10
+src/prefect/{orion => server}/models/block_registration.py,1,3,3
+src/prefect/{orion => server}/models/block_schemas.py,1,6,6
+src/prefect/{orion => server}/models/block_types.py,1,4,4
+src/prefect/{orion => server}/models/concurrency_limits.py,1,3,3
+src/prefect/{orion => server}/models/configuration.py,1,3,3
+src/prefect/{orion => server}/models/deployments.py,1,6,6
+src/prefect/{orion => server}/models/flow_run_notification_policies.py,1,3,3
+src/prefect/{orion => server}/models/flow_run_states.py,1,2,2
+src/prefect/{orion => server}/models/flow_runs.py,1,13,13
+src/prefect/{orion => server}/models/flows.py,1,3,3
+src/prefect/{orion => server}/models/logs.py,1,3,3
+src/prefect/{orion => server}/models/saved_searches.py,1,3,3
+src/prefect/{orion => server}/models/task_run_states.py,1,2,2
+src/prefect/{orion => server}/models/task_runs.py,1,10,10
+src/prefect/{orion => server}/models/work_queues.py,1,7,7
+src/prefect/{orion => server}/models/workers.py,1,4,4
+src/prefect/{orion => server}/orchestration/__init__.py,1,0,0
+src/prefect/{orion => server}/orchestration/core_policy.py,1,9,9
+src/prefect/{orion => server}/orchestration/dependencies.py,1,2,2
+src/prefect/{orion => server}/orchestration/global_policy.py,1,5,5
+src/prefect/{orion => server}/orchestration/policies.py,1,1,1
+src/prefect/{orion => server}/orchestration/rules.py,1,7,7
+src/prefect/{orion => server}/schemas/__init__.py,1,0,0
+src/prefect/{orion => server}/schemas/actions.py,1,2,2
+src/prefect/{orion => server}/schemas/core.py,1,4,4
+src/prefect/{orion => server}/schemas/filters.py,1,8,8
+src/prefect/{orion => server}/schemas/responses.py,1,6,6
+src/prefect/{orion => server}/schemas/schedules.py,1,1,1
+src/prefect/{orion => server}/schemas/sorting.py,1,1,1
+src/prefect/{orion => server}/schemas/states.py,1,5,5
+src/prefect/{orion => server}/services/cancellation_cleanup.py,1,5,5
+src/prefect/{orion => server}/services/flow_run_notifications.py,1,4,4
+src/prefect/{orion => server}/services/late_runs.py,1,5,5
+src/prefect/{orion => server}/services/loop_service.py,1,2,2
+src/prefect/{orion => server}/services/pause_expirations.py,1,5,5
+src/prefect/{orion => server}/services/scheduler.py,1,5,5
+src/prefect/{orion => server}/services/telemetry.py,1,6,6
+src/prefect/{orion => server}/utilities/__init__.py,1,0,0
+src/prefect/{orion => server}/utilities/database.py,1,1,1
+src/prefect/{orion => server}/utilities/encryption.py,1,2,2
+src/prefect/{orion => server}/utilities/names.py,1,0,0
+src/prefect/{orion => server}/utilities/schemas.py,1,1,1
+src/prefect/{orion => server}/utilities/server.py,1,0,0
+src/prefect/{orion => }/utilities/enum.py,1,0,0
+src/prefect/{orion => }/utilities/settings.py,1,23,6
+src/prefect/{projects => deployments}/base.py,1,0,0
+src/prefect/{projects => deployments}/recipes/docker-gcs/prefect.yaml,1,0,0
+src/prefect/{projects => deployments}/recipes/docker-git/prefect.yaml,1,1,1
+src/prefect/{projects => deployments}/recipes/docker-s3/prefect.yaml,1,0,0
+src/prefect/{projects => deployments}/recipes/docker/prefect.yaml,1,1,1
+src/prefect/{projects => deployments}/recipes/gcs/prefect.yaml,1,0,0
+src/prefect/{projects => deployments}/recipes/git/prefect.yaml,1,1,1
+src/prefect/{projects => deployments}/recipes/local/prefect.yaml,1,1,1
+src/prefect/{projects => deployments}/recipes/s3/prefect.yaml,1,0,0
+src/prefect/{projects => deployments}/steps/__init__.py,1,0,0
+src/prefect/{projects => deployments}/steps/core.py,1,0,0
+src/prefect/{projects => deployments}/steps/pull.py,1,7,7
+src/prefect/{projects => deployments}/steps/utility.py,1,8,8
+src/prefect/{projects => deployments}/templates/prefect.yaml,1,0,0
+src/prefect/{records => }/cache_policies.py,1,78,23
+src/prefect/{storage.py => filesystems.py},1,6,0
+src/prefect/{task_server.py => task_worker.py},1,23,23
+src/prefect/{utilities => logging}/logging.yml,1,0,0
+src/prefect/{utilities => }/context.py,1,0,0
+src/prefect/{utilities => }/settings.py,1,38,58
+src/prefect/{utilities.py => utilities/files.py},1,0,0
+src/prefect/{utilities/testing.py => testing/utilities.py},1,0,0
+src/prefect_orion/__init__.py,1,0,0
+src/{integrations/prefect-redis/prefect_redis/filesystem.py => prefect/blocks/redis.py},1,10,3
