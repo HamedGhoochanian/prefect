@@ -1,6 +1,6 @@
 {
     "reports_script.py": {
-        "mi": 51.19424727285623,
+        "mi": 54.891502284609324,
         "rank": "A"
     },
     "scripts/generate-lower-bounds.py": {
@@ -219,6 +219,10 @@
         "mi": 100.0,
         "rank": "A"
     },
+    "src/integrations/prefect-dask/prefect_dask/_version.py": {
+        "mi": 100.0,
+        "rank": "A"
+    },
     "src/integrations/prefect-azure/prefect_azure/cosmos_db.py": {
         "mi": 100.0,
         "rank": "A"
@@ -236,6 +240,10 @@
         "rank": "A"
     },
     "src/integrations/prefect-azure/prefect_azure/__init__.py": {
+        "mi": 100.0,
+        "rank": "A"
+    },
+    "src/integrations/prefect-azure/prefect_azure/_version.py": {
         "mi": 100.0,
         "rank": "A"
     },
@@ -287,6 +295,10 @@
         "mi": 57.99461155950329,
         "rank": "A"
     },
+    "src/integrations/prefect-redis/prefect_redis/_version.py": {
+        "mi": 100.0,
+        "rank": "A"
+    },
     "src/integrations/prefect-github/prefect_github/repository_owner.py": {
         "mi": 84.68670327327206,
         "rank": "A"
@@ -319,6 +331,10 @@
         "mi": 52.28853479512148,
         "rank": "A"
     },
+    "src/integrations/prefect-github/prefect_github/_version.py": {
+        "mi": 100.0,
+        "rank": "A"
+    },
     "src/integrations/prefect-github/prefect_github/mutations.py": {
         "mi": 74.12172521131303,
         "rank": "A"
@@ -345,6 +361,10 @@
     },
     "src/integrations/prefect-dbt/prefect_dbt/__init__.py": {
         "mi": 79.95311282993458,
+        "rank": "A"
+    },
+    "src/integrations/prefect-dbt/prefect_dbt/_version.py": {
+        "mi": 100.0,
         "rank": "A"
     },
     "src/integrations/prefect-dbt/prefect_dbt/core/runner.py": {
@@ -443,6 +463,10 @@
         "mi": 100.0,
         "rank": "A"
     },
+    "src/integrations/prefect-docker/prefect_docker/_version.py": {
+        "mi": 100.0,
+        "rank": "A"
+    },
     "src/integrations/prefect-docker/prefect_docker/types.py": {
         "mi": 74.22299323006068,
         "rank": "A"
@@ -475,6 +499,10 @@
         "mi": 100.0,
         "rank": "A"
     },
+    "src/integrations/prefect-snowflake/prefect_snowflake/_version.py": {
+        "mi": 100.0,
+        "rank": "A"
+    },
     "src/integrations/prefect-gitlab/prefect_gitlab/repositories.py": {
         "mi": 73.2080172333632,
         "rank": "A"
@@ -484,6 +512,10 @@
         "rank": "A"
     },
     "src/integrations/prefect-gitlab/prefect_gitlab/__init__.py": {
+        "mi": 100.0,
+        "rank": "A"
+    },
+    "src/integrations/prefect-gitlab/prefect_gitlab/_version.py": {
         "mi": 100.0,
         "rank": "A"
     },
@@ -505,6 +537,10 @@
     },
     "src/integrations/prefect-gcp/prefect_gcp/cloud_storage.py": {
         "mi": 41.203480445186266,
+        "rank": "A"
+    },
+    "src/integrations/prefect-gcp/prefect_gcp/_version.py": {
+        "mi": 100.0,
         "rank": "A"
     },
     "src/integrations/prefect-gcp/prefect_gcp/secret_manager.py": {
@@ -555,6 +591,10 @@
         "mi": 100.0,
         "rank": "A"
     },
+    "src/integrations/prefect-slack/prefect_slack/_version.py": {
+        "mi": 100.0,
+        "rank": "A"
+    },
     "src/integrations/prefect-sqlalchemy/prefect_sqlalchemy/database.py": {
         "mi": 49.86400298027813,
         "rank": "A"
@@ -567,11 +607,19 @@
         "mi": 100.0,
         "rank": "A"
     },
+    "src/integrations/prefect-sqlalchemy/prefect_sqlalchemy/_version.py": {
+        "mi": 100.0,
+        "rank": "A"
+    },
     "src/integrations/prefect-email/prefect_email/credentials.py": {
         "mi": 68.27519756903295,
         "rank": "A"
     },
     "src/integrations/prefect-email/prefect_email/__init__.py": {
+        "mi": 100.0,
+        "rank": "A"
+    },
+    "src/integrations/prefect-email/prefect_email/_version.py": {
         "mi": 100.0,
         "rank": "A"
     },
@@ -608,6 +656,10 @@
         "rank": "A"
     },
     "src/integrations/prefect-aws/prefect_aws/batch.py": {
+        "mi": 100.0,
+        "rank": "A"
+    },
+    "src/integrations/prefect-aws/prefect_aws/_version.py": {
         "mi": 100.0,
         "rank": "A"
     },
@@ -661,6 +713,10 @@
     },
     "src/integrations/prefect-bitbucket/prefect_bitbucket/repository.py": {
         "mi": 70.95757973279241,
+        "rank": "A"
+    },
+    "src/integrations/prefect-bitbucket/prefect_bitbucket/_version.py": {
+        "mi": 100.0,
         "rank": "A"
     },
     "src/integrations/prefect-kubernetes/integration_tests/src/prefect_kubernetes_integration_tests/conftest.py": {
@@ -727,6 +783,10 @@
         "mi": 100.0,
         "rank": "A"
     },
+    "src/integrations/prefect-kubernetes/prefect_kubernetes/_version.py": {
+        "mi": 100.0,
+        "rank": "A"
+    },
     "src/integrations/prefect-kubernetes/prefect_kubernetes/custom_objects.py": {
         "mi": 100.0,
         "rank": "A"
@@ -755,7 +815,15 @@
         "mi": 100.0,
         "rank": "A"
     },
+    "src/integrations/prefect-ray/prefect_ray/_version.py": {
+        "mi": 100.0,
+        "rank": "A"
+    },
     "src/integrations/prefect-shell/prefect_shell/__init__.py": {
+        "mi": 100.0,
+        "rank": "A"
+    },
+    "src/integrations/prefect-shell/prefect_shell/_version.py": {
         "mi": 100.0,
         "rank": "A"
     },
@@ -781,6 +849,10 @@
     },
     "src/integrations/prefect-databricks/prefect_databricks/rest.py": {
         "mi": 72.13359679571,
+        "rank": "A"
+    },
+    "src/integrations/prefect-databricks/prefect_databricks/_version.py": {
+        "mi": 100.0,
         "rank": "A"
     },
     "src/integrations/prefect-databricks/prefect_databricks/models/jobs.py": {

@@ -2,6 +2,7 @@ import os
 import json
 
 import subprocess
+from pprint import pprint
 from typing import List
 
 import pandas as pd
@@ -127,6 +128,24 @@ def generate_cmd_results(min_tokens=50, output='reports/cpd_results.csv'):
 def generate_maintainability(output="reports/maintainability_index.json"):
     os.system(f"radon mi --ignore tests --json --output-file {output} {PREFECT_PATH}")
     prettify_json(output)
+    import json
+    import csv
+
+    # Read the JSON file
+    with open('reports/maintainability_index.json', 'r') as f:
+        data = json.load(f)
+
+    # Open a CSV file for writing
+    with open(output.replace('.json','.csv'), 'w', newline='') as csvfile:
+        fieldnames = ['file', 'mi', 'rank']
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+
+        # Write the header
+        writer.writeheader()
+
+        # Write the data
+        for file, metrics in data.items():
+            writer.writerow({'file': file, 'mi': metrics['mi'], 'rank': metrics['rank']})
 
 
 def generate_mccabe(output="reports/mccabe.json"):
@@ -140,8 +159,9 @@ def generate_halstead(output="reports/halstead.json"):
 
 
 if __name__ == "__main__":
-    generate_cmd_results()
+    # generate_cmd_results()
     generate_maintainability()
-    generate_mccabe()
-    generate_halstead()
-    generate_churn_data()
+    # generate_mccabe()
+    # generate_halstead()
+    # generate_churn_data()
+#
