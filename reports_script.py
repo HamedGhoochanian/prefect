@@ -1,9 +1,8 @@
+import concurrent.futures
 import os
-import sys
+import csv
 import json
-
 import subprocess
-from pprint import pprint
 from typing import List
 from collections import defaultdict
 
@@ -17,7 +16,7 @@ def generate_churn_data(output="reports/code_churn.csv"):
     # Run git log to get numstat data
     cmd = "git log --no-merges --numstat --pretty=format:'%H'".split()
     result = subprocess.run(cmd, capture_output=True, text=True)
-    lines = result.stdout.split('\n')
+    lines = result.stdout.split("\n")
 
     # Parse data into a DataFrame
     data = []
@@ -25,40 +24,44 @@ def generate_churn_data(output="reports/code_churn.csv"):
     for line in lines:
         if len(line) == 40:  # Commit hash
             current_hash = line
-        elif '\t' in line:  # Numstat line (additions, deletions, file)
-            additions, deletions, file = line.split('\t')
+        elif "\t" in line:  # Numstat line (additions, deletions, file)
+            additions, deletions, file = line.split("\t")
 
             # --- FILTER FILES ---
             # Exclude files outside the 'src' directory
-            if not file.startswith('src/'):
+            if not file.startswith("src/"):
                 continue
 
             # Exclude test files (e.g., tests/, *_test.py, test_*.py)
-            if 'tests/' in file or 'test_' in file or '_test.py' in file:
+            if "tests/" in file or "test_" in file or "_test.py" in file:
                 continue
 
             # Exclude migration files (e.g., migrations/, *_migration.py)
-            if 'migrations/' in file or '_migration.py' in file or '_migration' in file:
+            if "migrations/" in file or "_migration.py" in file or "_migration" in file:
                 continue
 
             # Add to data
-            data.append({
-                'file': file,
-                'commits': 1,
-                'lines_added': int(additions) if additions.isdigit() else 0,
-                'lines_removed': int(deletions) if deletions.isdigit() else 0
-            })
+            data.append(
+                {
+                    "file": file,
+                    "commits": 1,
+                    "lines_added": int(additions) if additions.isdigit() else 0,
+                    "lines_removed": int(deletions) if deletions.isdigit() else 0,
+                }
+            )
 
     # Aggregate by file
     df = pd.DataFrame(data)
     if not df.empty:
-        churn_df = df.groupby('file').agg({
-            'commits': 'sum',
-            'lines_added': 'sum',
-            'lines_removed': 'sum'
-        }).reset_index()
+        churn_df = (
+            df.groupby("file")
+            .agg({"commits": "sum", "lines_added": "sum", "lines_removed": "sum"})
+            .reset_index()
+        )
     else:
-        churn_df = pd.DataFrame(columns=['file', 'commits', 'lines_added', 'lines_removed'])
+        churn_df = pd.DataFrame(
+            columns=["file", "commits", "lines_added", "lines_removed"]
+        )
     churn_df.to_csv(output, index=False)
 
 
@@ -69,9 +72,9 @@ def list_python_files(directory):
             if file.endswith(".py"):
                 full_path = os.path.join(root, file).lower()
                 if (
-                        "test" not in full_path
-                        and "__pycache__" not in full_path
-                        and "_migration" not in full_path
+                    "test" not in full_path
+                    and "__pycache__" not in full_path
+                    and "_migration" not in full_path
                 ):
                     python_files.append(os.path.join(root, file))
     return python_files
@@ -116,7 +119,9 @@ def process_cpd_csv(file_path):
                 line_count = int(parts[i * 3])
                 # Remove the PREFECT_PATH prefix from the path for clarity
                 relative_path = parts[i * 3 + 1].replace(f"{PREFECT_PATH}\\", "")
-                normalized_rows.append([token_count, clone_block_id, start_line, line_count, relative_path])
+                normalized_rows.append(
+                    [token_count, clone_block_id, start_line, line_count, relative_path]
+                )
             except (IndexError, ValueError):
                 continue
         clone_block_id += 1
@@ -137,40 +142,47 @@ def print_most_common_clone(normalized_rows, title):
         return
 
     # Find the clone block with the highest number of occurrences.
-    most_common_block_id, occurrences = max(blocks.items(), key=lambda item: len(item[1]))
+    most_common_block_id, occurrences = max(
+        blocks.items(), key=lambda item: len(item[1])
+    )
 
     print(
-        f"\nMost Common {title} Clone Block (Block ID: {most_common_block_id}, Occurrences: {len(occurrences)}, Token Count: {occurrences[0][0]}):")
+        f"\nMost Common {title} Clone Block (Block ID: {most_common_block_id}, Occurrences: {len(occurrences)}, Token Count: {occurrences[0][0]}):"
+    )
     for occ in occurrences:
         token_count, clone_block_id, start_line, line_count, rel_path = occ
         abs_path = os.path.join(PREFECT_PATH, rel_path)
-        print(f"\nFile: {abs_path} (Lines {start_line} to {start_line + line_count - 1}):")
-        try:
-            with open(abs_path, "r", encoding="utf-8") as f:
-                file_lines = f.readlines()
-            # Adjust for 0-based indexing.
-            snippet = "".join(file_lines[start_line - 1: start_line - 1 + line_count])
-            print("Snippet:")
-            print(snippet)
-        except Exception as e:
-            print(f"Error reading file: {e}")
+        # print(f"\nFile: {abs_path} (Lines {start_line} to {start_line + line_count - 1}):")
+        # try:
+        #     with open(abs_path, "r", encoding="utf-8") as f:
+        #         file_lines = f.readlines()
+        #     # Adjust for 0-based indexing.
+        #     snippet = "".join(file_lines[start_line - 1: start_line - 1 + line_count])
+        #     print("Snippet:")
+        #     print(snippet)
+        # except Exception as e:
+        #     print(f"Error reading file: {e}")
 
 
-def generate_cpd_results(min_tokens=50,
-                         output_type1='reports/cpd_type1_results.csv',
-                         output_type2='reports/cpd_type2_results.csv'):
+def generate_cpd_results(
+    min_tokens=50,
+    output_type1="reports/cpd_type1_results.csv",
+    output_type2="reports/cpd_type2_results.csv",
+):
     # Ensure the reports directory exists.
     os.makedirs("reports", exist_ok=True)
 
     # Use the source directory directly.
     source_dir = SRC
     print("Analyzing source directory:", source_dir)
+    file_list = list_python_files(source_dir)
 
     # --- Type 1 clones: exact matches ---
-    cmd_type1 = (f'pmd cpd --language python --minimum-tokens {min_tokens} '
-                 f'--format csv_with_linecount_per_file -d "{source_dir}" > {output_type1}')
-    print("Running Type 1 CPD command:")
-    print(cmd_type1)
+    cmd_type1 = (
+        f"pmd cpd --language python --minimum-tokens {min_tokens} "
+        f"--format csv_with_linecount_per_file -d {' '.join(file_list)} > {output_type1}"
+    )
+    print("Running Type 1 CPD command")
     ret1 = os.system(cmd_type1)
     if ret1 not in (0, 4):
         print("Error running CPD for Type 1 clones. Return code:", ret1)
@@ -178,11 +190,12 @@ def generate_cpd_results(min_tokens=50,
         print(f"Type 1 clone results written to {output_type1}")
 
     # --- Type 2 clones: ignoring literals and identifiers ---
-    cmd_type2 = (f'pmd cpd --language python --minimum-tokens {min_tokens} '
-                 f'--ignore-literals --ignore-identifiers --format csv_with_linecount_per_file '
-                 f'-d "{source_dir}" > {output_type2}')
-    print("Running Type 2 CPD command:")
-    print(cmd_type2)
+    cmd_type2 = (
+        f"pmd cpd --language python --minimum-tokens {min_tokens} "
+        f"--ignore-literals --ignore-identifiers --format csv_with_linecount_per_file "
+        f" -d {' '.join(file_list)} > {output_type2}"
+    )
+    print("Running Type 2 CPD command")
     ret2 = os.system(cmd_type2)
     if ret2 not in (0, 4):
         print("Error running CPD for Type 2 clones. Return code:", ret2)
@@ -212,42 +225,154 @@ def generate_cpd_results(min_tokens=50,
     print_most_common_clone(normalized_type1, "Type 1")
     print_most_common_clone(normalized_type2, "Type 2")
 
-def generate_maintainability(output="reports/maintainability_index.json"):
-    os.system(f"radon mi --ignore tests --json --output-file {output} {PREFECT_PATH}")
-    prettify_json(output)
-    import json
-    import csv
 
-    # Read the JSON file
-    with open('reports/maintainability_index.json', 'r') as f:
+def convert_maintainability_json_to_csv(json_file):
+    with open(json_file, "r") as f:
         data = json.load(f)
 
-    # Open a CSV file for writing
-    with open(output.replace('.json','.csv'), 'w', newline='') as csvfile:
-        fieldnames = ['file', 'mi', 'rank']
+    with open(json_file.replace(".json", ".csv"), "w", newline="") as csvfile:
+        fieldnames = ["file", "mi", "rank"]
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
 
-        # Write the header
         writer.writeheader()
 
-        # Write the data
         for file, metrics in data.items():
-            writer.writerow({'file': file, 'mi': metrics['mi'], 'rank': metrics['rank']})
+            writer.writerow(
+                {"file": file, "mi": metrics["mi"], "rank": metrics["rank"]}
+            )
+
+
+def convert_mccabe_json_to_csv(json_file):
+    with open(json_file, "r") as file:
+        data = json.load(file)
+
+    # Prepare data for CSV
+    rows = []
+
+    for file, items in data.items():
+        for item in items:
+            row = {
+                "file": file,
+                "type": item.get("type", ""),
+                "rank": item.get("rank", ""),
+                "complexity": item.get("complexity", ""),
+                "col_offset": item.get("col_offset", ""),
+                "lineno": item.get("lineno", ""),
+                "endline": item.get("endline", ""),
+                "name": item.get("name", ""),
+            }
+            rows.append(row)
+
+    # Convert to DataFrame
+    df = pd.DataFrame(rows)
+
+    # Save to CSV
+    csv_file_path = json_file.replace(".json", ".csv")
+    df.to_csv(csv_file_path, index=False)
+
+
+def convert_halstead_json_to_csv(json_file):
+    with open(json_file, "r") as file:
+        data = json.load(file)
+
+    # Prepare data for CSV
+    rows = []
+    for file, metrics in data.items():
+        metrics = metrics.get("total", {})
+        row = {
+            "file": file,
+            "h1": metrics.get("h1", ""),
+            "h2": metrics.get("h2", ""),
+            "N1": metrics.get("N1", ""),
+            "N2": metrics.get("N2", ""),
+            "vocabulary": metrics.get("vocabulary", ""),
+            "length": metrics.get("length", ""),
+            "calculated_length": metrics.get("calculated_length", ""),
+            "volume": metrics.get("volume", ""),
+            "difficulty": metrics.get("difficulty", ""),
+            "effort": metrics.get("effort", ""),
+            "time": metrics.get("time", ""),
+            "bugs": metrics.get("bugs", ""),
+        }
+        rows.append(row)
+    df = pd.DataFrame(rows)
+    csv_file_path = json_file.replace(".json", ".csv")
+    df.to_csv(csv_file_path, index=False)
+
+
+def generate_maintainability(output="reports/maintainability_index.json"):
+    os.system(f"radon mi --ignore tests --json --output-file {output} {SRC}")
+    prettify_json(output)
+    convert_maintainability_json_to_csv(output)
 
 
 def generate_mccabe(output="reports/mccabe.json"):
-    os.system(f"radon cc --ignore tests --json --output-file {output} {PREFECT_PATH}")
+    os.system(f"radon cc --ignore tests --json --output-file {output} {SRC}")
     prettify_json(output)
+    convert_mccabe_json_to_csv(output)
 
 
 def generate_halstead(output="reports/halstead.json"):
-    os.system(f"radon hal --ignore tests --json --output-file {output} {PREFECT_PATH}")
+    os.system(f"radon hal --ignore tests --json --output-file {output} {SRC}")
     prettify_json(output)
+    convert_halstead_json_to_csv(output)
+
+
+def generate_lizard(output="reports/lizard.csv"):
+    os.system(f"echo 'NLOC,CCN,token,param,length,location' > {output}")
+    os.system(f"lizard --csv {SRC}>> {output}")
+    with open(output, "r") as f:
+        data = f.readlines()
+    data = [line.replace(f"{PREFECT_PATH}/", "") for line in data]
+    with open(output, "w") as f:
+        f.writelines(data)
+
+
+def clean_abs_paths(file_list: List[str]):
+    for f in file_list:
+        with open(f, "r+") as file:
+            data = file.readlines()
+            data = [line.replace(f"{PREFECT_PATH}/", "") for line in data]
+            headers = data[0].split(",")
+            for i, header in enumerate(headers):
+                if header == "file":
+                    headers[i] = "path"
+                elif header == "location":
+                    headers[i] = "path"
+            data[0] = ",".join(headers)
+            file.seek(0)
+            file.truncate()
+            file.writelines(data)
 
 
 if __name__ == "__main__":
-    generate_cpd_results()
-    generate_maintainability()
-    generate_mccabe()
-    generate_halstead()
-    generate_churn_data()
+    with concurrent.futures.ThreadPoolExecutor() as executor:
+        futures = [
+            executor.submit(
+                generate_cpd_results,
+                50,
+                "reports/cpd_type1_results.csv",
+                "reports/cpd_type2_results.csv",
+            ),
+            executor.submit(generate_lizard, "reports/lizard.csv"),
+            executor.submit(
+                generate_maintainability, "reports/maintainability_index.json"
+            ),
+            executor.submit(generate_mccabe, "reports/mccabe.json"),
+            executor.submit(generate_halstead, "reports/halstead.json"),
+            executor.submit(generate_churn_data, "reports/code_churn.csv"),
+        ]
+        concurrent.futures.wait(futures)
+
+    clean_abs_paths(
+        [
+            "reports/cpd_type1_results.csv",
+            "reports/cpd_type2_results.csv",
+            "reports/lizard.csv",
+            "reports/maintainability_index.csv",
+            "reports/mccabe.csv",
+            "reports/halstead.csv",
+            "reports/code_churn.csv",
+        ]
+    )
+    print("All tasks completed and paths cleaned.")

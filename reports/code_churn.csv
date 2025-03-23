@@ -1,4 +1,4 @@
-file,commits,lines_added,lines_removed
+path,commits,lines_added,lines_removed
 src/integrations/prefect-aws/LICENSE,1,202,0
 src/integrations/prefect-aws/MANIFEST.in,1,9,0
 src/integrations/prefect-aws/README.md,2,25,5

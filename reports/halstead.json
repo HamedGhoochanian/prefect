@@ -1,3006 +1,4 @@
 {
-    "reports_script.py": {
-        "total": {
-            "h1": 9,
-            "h2": 41,
-            "N1": 31,
-            "N2": 63,
-            "vocabulary": 50,
-            "length": 94,
-            "calculated_length": 248.18895720232226,
-            "volume": 530.5224818388241,
-            "difficulty": 6.914634146341464,
-            "effort": 3668.3688683245523,
-            "time": 203.79827046247513,
-            "bugs": 0.17684082727960804
-        },
-        "functions": {
-            "generate_churn_data": {
-                "h1": 4,
-                "h2": 19,
-                "N1": 12,
-                "N2": 24,
-                "vocabulary": 23,
-                "length": 36,
-                "calculated_length": 88.71062275542812,
-                "volume": 162.84823041805248,
-                "difficulty": 2.526315789473684,
-                "effort": 411.40605579297466,
-                "time": 22.85589198849859,
-                "bugs": 0.05428274347268416
-            },
-            "list_python_files": {
-                "h1": 2,
-                "h2": 7,
-                "N1": 4,
-                "N2": 9,
-                "vocabulary": 9,
-                "length": 13,
-                "calculated_length": 21.651484454403228,
-                "volume": 41.20902501875006,
-                "difficulty": 1.2857142857142858,
-                "effort": 52.98303216696437,
-                "time": 2.943501787053576,
-                "bugs": 0.013736341672916687
-            },
-            "prettify_json": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "generate_cmd_results": {
-                "h1": 3,
-                "h2": 13,
-                "N1": 14,
-                "N2": 28,
-                "vocabulary": 16,
-                "length": 42,
-                "calculated_length": 52.860603837997665,
-                "volume": 168.0,
-                "difficulty": 3.230769230769231,
-                "effort": 542.7692307692308,
-                "time": 30.153846153846157,
-                "bugs": 0.056
-            },
-            "generate_maintainability": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "generate_mccabe": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "generate_halstead": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            }
-        }
-    },
-    "scripts/generate-lower-bounds.py": {
-        "total": {
-            "h1": 4,
-            "h2": 9,
-            "N1": 6,
-            "N2": 11,
-            "vocabulary": 13,
-            "length": 17,
-            "calculated_length": 36.52932501298081,
-            "volume": 62.907475208398566,
-            "difficulty": 2.4444444444444446,
-            "effort": 153.7738282871965,
-            "time": 8.542990460399805,
-            "bugs": 0.02096915840279952
-        },
-        "functions": {
-            "generate_lower_bounds": {
-                "h1": 2,
-                "h2": 5,
-                "N1": 4,
-                "N2": 7,
-                "vocabulary": 7,
-                "length": 11,
-                "calculated_length": 13.60964047443681,
-                "volume": 30.880904142633646,
-                "difficulty": 1.4,
-                "effort": 43.2332657996871,
-                "time": 2.401848099982617,
-                "bugs": 0.010293634714211216
-            }
-        }
-    },
-    "scripts/generate_settings_schema.py": {
-        "total": {
-            "h1": 2,
-            "h2": 6,
-            "N1": 3,
-            "N2": 6,
-            "vocabulary": 8,
-            "length": 9,
-            "calculated_length": 17.509775004326936,
-            "volume": 27.0,
-            "difficulty": 1.0,
-            "effort": 27.0,
-            "time": 1.5,
-            "bugs": 0.009
-        },
-        "functions": {
-            "generate": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "main": {
-                "h1": 1,
-                "h2": 4,
-                "N1": 2,
-                "N2": 4,
-                "vocabulary": 5,
-                "length": 6,
-                "calculated_length": 8.0,
-                "volume": 13.931568569324174,
-                "difficulty": 0.5,
-                "effort": 6.965784284662087,
-                "time": 0.3869880158145604,
-                "bugs": 0.004643856189774725
-            }
-        }
-    },
-    "scripts/pyright_diff.py": {
-        "total": {
-            "h1": 4,
-            "h2": 9,
-            "N1": 5,
-            "N2": 9,
-            "vocabulary": 13,
-            "length": 14,
-            "calculated_length": 36.52932501298081,
-            "volume": 51.80615605397529,
-            "difficulty": 2.0,
-            "effort": 103.61231210795059,
-            "time": 5.75623956155281,
-            "bugs": 0.01726871868465843
-        },
-        "functions": {
-            "normalize_diagnostic": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "load_and_normalize_file": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "parse_diagnostic": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "format_markdown_table": {
-                "h1": 1,
-                "h2": 1,
-                "N1": 1,
-                "N2": 1,
-                "vocabulary": 2,
-                "length": 2,
-                "calculated_length": 0.0,
-                "volume": 2.0,
-                "difficulty": 0.5,
-                "effort": 1.0,
-                "time": 0.05555555555555555,
-                "bugs": 0.0006666666666666666
-            },
-            "compare_pyright_outputs": {
-                "h1": 2,
-                "h2": 4,
-                "N1": 2,
-                "N2": 4,
-                "vocabulary": 6,
-                "length": 6,
-                "calculated_length": 10.0,
-                "volume": 15.509775004326936,
-                "difficulty": 1.0,
-                "effort": 15.509775004326936,
-                "time": 0.861654166907052,
-                "bugs": 0.005169925001442312
-            }
-        }
-    },
-    "scripts/test_unc_paths.py": {
-        "total": {
-            "h1": 3,
-            "h2": 10,
-            "N1": 5,
-            "N2": 10,
-            "vocabulary": 13,
-            "length": 15,
-            "calculated_length": 37.974168451037094,
-            "volume": 55.506595772116384,
-            "difficulty": 1.5,
-            "effort": 83.25989365817458,
-            "time": 4.625549647676365,
-            "bugs": 0.01850219859070546
-        },
-        "functions": {
-            "setup_unc_share": {
-                "h1": 2,
-                "h2": 4,
-                "N1": 2,
-                "N2": 4,
-                "vocabulary": 6,
-                "length": 6,
-                "calculated_length": 10.0,
-                "volume": 15.509775004326936,
-                "difficulty": 1.0,
-                "effort": 15.509775004326936,
-                "time": 0.861654166907052,
-                "bugs": 0.005169925001442312
-            },
-            "create_test_flow_file": {
-                "h1": 1,
-                "h2": 4,
-                "N1": 2,
-                "N2": 4,
-                "vocabulary": 5,
-                "length": 6,
-                "calculated_length": 8.0,
-                "volume": 13.931568569324174,
-                "difficulty": 0.5,
-                "effort": 6.965784284662087,
-                "time": 0.3869880158145604,
-                "bugs": 0.004643856189774725
-            }
-        }
-    },
-    "scripts/generate_sdk_docs.py": {
-        "total": {
-            "h1": 4,
-            "h2": 14,
-            "N1": 7,
-            "N2": 14,
-            "vocabulary": 18,
-            "length": 21,
-            "calculated_length": 61.30296890880645,
-            "volume": 87.56842503028855,
-            "difficulty": 2.0,
-            "effort": 175.1368500605771,
-            "time": 9.729825003365395,
-            "bugs": 0.029189475010096184
-        },
-        "functions": {
-            "docs_path": {
-                "h1": 1,
-                "h2": 2,
-                "N1": 1,
-                "N2": 2,
-                "vocabulary": 3,
-                "length": 3,
-                "calculated_length": 2.0,
-                "volume": 4.754887502163469,
-                "difficulty": 0.5,
-                "effort": 2.3774437510817346,
-                "time": 0.1320802083934297,
-                "bugs": 0.0015849625007211565
-            },
-            "main": {
-                "h1": 3,
-                "h2": 10,
-                "N1": 5,
-                "N2": 10,
-                "vocabulary": 13,
-                "length": 15,
-                "calculated_length": 37.974168451037094,
-                "volume": 55.506595772116384,
-                "difficulty": 1.5,
-                "effort": 83.25989365817458,
-                "time": 4.625549647676365,
-                "bugs": 0.01850219859070546
-            },
-            "packages": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            }
-        }
-    },
-    "scripts/run-integration-flows.py": {
-        "total": {
-            "h1": 4,
-            "h2": 7,
-            "N1": 4,
-            "N2": 7,
-            "vocabulary": 11,
-            "length": 11,
-            "calculated_length": 27.651484454403228,
-            "volume": 38.053747805010275,
-            "difficulty": 2.0,
-            "effort": 76.10749561002055,
-            "time": 4.228194200556697,
-            "bugs": 0.012684582601670092
-        },
-        "functions": {
-            "run_script": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "run_flows": {
-                "h1": 1,
-                "h2": 1,
-                "N1": 1,
-                "N2": 1,
-                "vocabulary": 2,
-                "length": 2,
-                "calculated_length": 0.0,
-                "volume": 2.0,
-                "difficulty": 0.5,
-                "effort": 1.0,
-                "time": 0.05555555555555555,
-                "bugs": 0.0006666666666666666
-            }
-        }
-    },
-    "scripts/generate_mintlify_openapi_docs.py": {
-        "total": {
-            "h1": 5,
-            "h2": 30,
-            "N1": 15,
-            "N2": 30,
-            "vocabulary": 35,
-            "length": 45,
-            "calculated_length": 158.81635834269238,
-            "volume": 230.81773576252348,
-            "difficulty": 2.5,
-            "effort": 577.0443394063087,
-            "time": 32.05801885590604,
-            "bugs": 0.07693924525417449
-        },
-        "functions": {
-            "docs_path": {
-                "h1": 1,
-                "h2": 2,
-                "N1": 1,
-                "N2": 2,
-                "vocabulary": 3,
-                "length": 3,
-                "calculated_length": 2.0,
-                "volume": 4.754887502163469,
-                "difficulty": 0.5,
-                "effort": 2.3774437510817346,
-                "time": 0.1320802083934297,
-                "bugs": 0.0015849625007211565
-            },
-            "current_version": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "main": {
-                "h1": 3,
-                "h2": 16,
-                "N1": 8,
-                "N2": 16,
-                "vocabulary": 19,
-                "length": 24,
-                "calculated_length": 68.75488750216347,
-                "volume": 101.95026032264605,
-                "difficulty": 1.5,
-                "effort": 152.92539048396907,
-                "time": 8.49585502688717,
-                "bugs": 0.03398342010754868
-            },
-            "ensure_npx_environment": {
-                "h1": 1,
-                "h2": 2,
-                "N1": 1,
-                "N2": 2,
-                "vocabulary": 3,
-                "length": 3,
-                "calculated_length": 2.0,
-                "volume": 4.754887502163469,
-                "difficulty": 0.5,
-                "effort": 2.3774437510817346,
-                "time": 0.1320802083934297,
-                "bugs": 0.0015849625007211565
-            },
-            "generate_schema_documentation": {
-                "h1": 2,
-                "h2": 4,
-                "N1": 2,
-                "N2": 4,
-                "vocabulary": 6,
-                "length": 6,
-                "calculated_length": 10.0,
-                "volume": 15.509775004326936,
-                "difficulty": 1.0,
-                "effort": 15.509775004326936,
-                "time": 0.861654166907052,
-                "bugs": 0.005169925001442312
-            },
-            "write_mint": {
-                "h1": 1,
-                "h2": 2,
-                "N1": 1,
-                "N2": 2,
-                "vocabulary": 3,
-                "length": 3,
-                "calculated_length": 2.0,
-                "volume": 4.754887502163469,
-                "difficulty": 0.5,
-                "effort": 2.3774437510817346,
-                "time": 0.1320802083934297,
-                "bugs": 0.0015849625007211565
-            }
-        }
-    },
-    "scripts/generate_integration_package_tests_matrix.py": {
-        "total": {
-            "h1": 4,
-            "h2": 15,
-            "N1": 7,
-            "N2": 15,
-            "vocabulary": 19,
-            "length": 22,
-            "calculated_length": 66.60335893412778,
-            "volume": 93.45440529575887,
-            "difficulty": 2.0,
-            "effort": 186.90881059151775,
-            "time": 10.383822810639876,
-            "bugs": 0.031151468431919623
-        },
-        "functions": {
-            "get_changed_packages": {
-                "h1": 3,
-                "h2": 9,
-                "N1": 4,
-                "N2": 9,
-                "vocabulary": 12,
-                "length": 13,
-                "calculated_length": 33.28421251514428,
-                "volume": 46.604512509375034,
-                "difficulty": 1.5,
-                "effort": 69.90676876406255,
-                "time": 3.883709375781253,
-                "bugs": 0.015534837503125011
-            },
-            "generate_matrix": {
-                "h1": 1,
-                "h2": 2,
-                "N1": 1,
-                "N2": 2,
-                "vocabulary": 3,
-                "length": 3,
-                "calculated_length": 2.0,
-                "volume": 4.754887502163469,
-                "difficulty": 0.5,
-                "effort": 2.3774437510817346,
-                "time": 0.1320802083934297,
-                "bugs": 0.0015849625007211565
-            }
-        }
-    },
-    "scripts/wait-for-server.py": {
-        "total": {
-            "h1": 3,
-            "h2": 6,
-            "N1": 4,
-            "N2": 8,
-            "vocabulary": 9,
-            "length": 12,
-            "calculated_length": 20.264662506490406,
-            "volume": 38.03910001730775,
-            "difficulty": 2.0,
-            "effort": 76.0782000346155,
-            "time": 4.226566668589751,
-            "bugs": 0.012679700005769252
-        },
-        "functions": {
-            "main": {
-                "h1": 1,
-                "h2": 2,
-                "N1": 2,
-                "N2": 4,
-                "vocabulary": 3,
-                "length": 6,
-                "calculated_length": 2.0,
-                "volume": 9.509775004326938,
-                "difficulty": 1.0,
-                "effort": 9.509775004326938,
-                "time": 0.5283208335737188,
-                "bugs": 0.003169925001442313
-            }
-        }
-    },
-    "scripts/validate_collection_view_content.py": {
-        "total": {
-            "h1": 2,
-            "h2": 8,
-            "N1": 6,
-            "N2": 12,
-            "vocabulary": 10,
-            "length": 18,
-            "calculated_length": 26.0,
-            "volume": 59.794705707972525,
-            "difficulty": 1.5,
-            "effort": 89.69205856195879,
-            "time": 4.9828921423310435,
-            "bugs": 0.019931568569324175
-        },
-        "functions": {
-            "validate_view_content": {
-                "h1": 1,
-                "h2": 4,
-                "N1": 4,
-                "N2": 8,
-                "vocabulary": 5,
-                "length": 12,
-                "calculated_length": 8.0,
-                "volume": 27.863137138648348,
-                "difficulty": 1.0,
-                "effort": 27.863137138648348,
-                "time": 1.5479520632582415,
-                "bugs": 0.00928771237954945
-            }
-        }
-    },
-    "scripts/generate_settings_ref.py": {
-        "total": {
-            "h1": 8,
-            "h2": 50,
-            "N1": 32,
-            "N2": 59,
-            "vocabulary": 58,
-            "length": 91,
-            "calculated_length": 306.1928094887362,
-            "volume": 533.0762705566091,
-            "difficulty": 4.72,
-            "effort": 2516.1199970271946,
-            "time": 139.78444427928858,
-            "bugs": 0.17769209018553636
-        },
-        "functions": {
-            "resolve_ref": {
-                "h1": 1,
-                "h2": 1,
-                "N1": 1,
-                "N2": 1,
-                "vocabulary": 2,
-                "length": 2,
-                "calculated_length": 0.0,
-                "volume": 2.0,
-                "difficulty": 0.5,
-                "effort": 1.0,
-                "time": 0.05555555555555555,
-                "bugs": 0.0006666666666666666
-            },
-            "build_ref_paths": {
-                "h1": 2,
-                "h2": 7,
-                "N1": 4,
-                "N2": 7,
-                "vocabulary": 9,
-                "length": 11,
-                "calculated_length": 21.651484454403228,
-                "volume": 34.86917501586544,
-                "difficulty": 1.0,
-                "effort": 34.86917501586544,
-                "time": 1.937176389770302,
-                "bugs": 0.011623058338621813
-            },
-            "process_property_constraints": {
-                "h1": 2,
-                "h2": 3,
-                "N1": 2,
-                "N2": 4,
-                "vocabulary": 5,
-                "length": 6,
-                "calculated_length": 6.754887502163469,
-                "volume": 13.931568569324174,
-                "difficulty": 1.3333333333333333,
-                "effort": 18.575424759098897,
-                "time": 1.0319680421721609,
-                "bugs": 0.004643856189774725
-            },
-            "generate_property_docs": {
-                "h1": 5,
-                "h2": 14,
-                "N1": 10,
-                "N2": 19,
-                "vocabulary": 19,
-                "length": 29,
-                "calculated_length": 64.91260938324326,
-                "volume": 123.18989788986397,
-                "difficulty": 3.392857142857143,
-                "effort": 417.96572498346706,
-                "time": 23.22031805463706,
-                "bugs": 0.04106329929662132
-            },
-            "generate_model_docs": {
-                "h1": 4,
-                "h2": 7,
-                "N1": 5,
-                "N2": 9,
-                "vocabulary": 11,
-                "length": 14,
-                "calculated_length": 27.651484454403228,
-                "volume": 48.43204266092217,
-                "difficulty": 2.5714285714285716,
-                "effort": 124.53953827094274,
-                "time": 6.918863237274596,
-                "bugs": 0.016144014220307392
-            },
-            "process_definitions": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "main": {
-                "h1": 4,
-                "h2": 16,
-                "N1": 9,
-                "N2": 17,
-                "vocabulary": 20,
-                "length": 26,
-                "calculated_length": 72.0,
-                "volume": 112.37013046707143,
-                "difficulty": 2.125,
-                "effort": 238.7865272425268,
-                "time": 13.265918180140378,
-                "bugs": 0.03745671015569048
-            }
-        }
-    },
-    "scripts/generate_oss_openapi_schema.py": {
-        "total": {
-            "h1": 0,
-            "h2": 0,
-            "N1": 0,
-            "N2": 0,
-            "vocabulary": 0,
-            "length": 0,
-            "calculated_length": 0,
-            "volume": 0,
-            "difficulty": 0,
-            "effort": 0,
-            "time": 0.0,
-            "bugs": 0.0
-        },
-        "functions": {}
-    },
-    "scripts/generate_cli_docs.py": {
-        "total": {
-            "h1": 11,
-            "h2": 34,
-            "N1": 22,
-            "N2": 41,
-            "vocabulary": 45,
-            "length": 63,
-            "calculated_length": 211.02748440752185,
-            "volume": 345.9867450687695,
-            "difficulty": 6.632352941176471,
-            "effort": 2294.706206264927,
-            "time": 127.48367812582927,
-            "bugs": 0.11532891502292317
-        },
-        "functions": {
-            "get_help_text": {
-                "h1": 1,
-                "h2": 2,
-                "N1": 1,
-                "N2": 2,
-                "vocabulary": 3,
-                "length": 3,
-                "calculated_length": 2.0,
-                "volume": 4.754887502163469,
-                "difficulty": 0.5,
-                "effort": 2.3774437510817346,
-                "time": 0.1320802083934297,
-                "bugs": 0.0015849625007211565
-            },
-            "get_examples": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "build_docs_context": {
-                "h1": 7,
-                "h2": 17,
-                "N1": 12,
-                "N2": 24,
-                "vocabulary": 24,
-                "length": 36,
-                "calculated_length": 89.13835275565901,
-                "volume": 165.05865002596164,
-                "difficulty": 4.9411764705882355,
-                "effort": 815.58391777534,
-                "time": 45.31021765418555,
-                "bugs": 0.05501955000865388
-            },
-            "escape_mdx": {
-                "h1": 1,
-                "h2": 1,
-                "N1": 1,
-                "N2": 1,
-                "vocabulary": 2,
-                "length": 2,
-                "calculated_length": 0.0,
-                "volume": 2.0,
-                "difficulty": 0.5,
-                "effort": 1.0,
-                "time": 0.05555555555555555,
-                "bugs": 0.0006666666666666666
-            },
-            "write_command_docs": {
-                "h1": 2,
-                "h2": 3,
-                "N1": 2,
-                "N2": 3,
-                "vocabulary": 5,
-                "length": 5,
-                "calculated_length": 6.754887502163469,
-                "volume": 11.60964047443681,
-                "difficulty": 1.0,
-                "effort": 11.60964047443681,
-                "time": 0.6449800263576005,
-                "bugs": 0.0038698801581456034
-            },
-            "render_command_and_subcommands": {
-                "h1": 1,
-                "h2": 4,
-                "N1": 2,
-                "N2": 4,
-                "vocabulary": 5,
-                "length": 6,
-                "calculated_length": 8.0,
-                "volume": 13.931568569324174,
-                "difficulty": 0.5,
-                "effort": 6.965784284662087,
-                "time": 0.3869880158145604,
-                "bugs": 0.004643856189774725
-            },
-            "write_subcommand_docs": {
-                "h1": 2,
-                "h2": 3,
-                "N1": 2,
-                "N2": 3,
-                "vocabulary": 5,
-                "length": 5,
-                "calculated_length": 6.754887502163469,
-                "volume": 11.60964047443681,
-                "difficulty": 1.0,
-                "effort": 11.60964047443681,
-                "time": 0.6449800263576005,
-                "bugs": 0.0038698801581456034
-            },
-            "get_docs_for_click": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            }
-        }
-    },
-    "scripts/collections-manager": {
-        "total": {
-            "h1": 4,
-            "h2": 16,
-            "N1": 9,
-            "N2": 16,
-            "vocabulary": 20,
-            "length": 25,
-            "calculated_length": 72.0,
-            "volume": 108.04820237218406,
-            "difficulty": 2.0,
-            "effort": 216.09640474436813,
-            "time": 12.005355819131562,
-            "bugs": 0.03601606745739469
-        },
-        "functions": {
-            "prefect_collections": {
-                "h1": 1,
-                "h2": 2,
-                "N1": 1,
-                "N2": 2,
-                "vocabulary": 3,
-                "length": 3,
-                "calculated_length": 2.0,
-                "volume": 4.754887502163469,
-                "difficulty": 0.5,
-                "effort": 2.3774437510817346,
-                "time": 0.1320802083934297,
-                "bugs": 0.0015849625007211565
-            },
-            "collection_paths": {
-                "h1": 1,
-                "h2": 2,
-                "N1": 1,
-                "N2": 2,
-                "vocabulary": 3,
-                "length": 3,
-                "calculated_length": 2.0,
-                "volume": 4.754887502163469,
-                "difficulty": 0.5,
-                "effort": 2.3774437510817346,
-                "time": 0.1320802083934297,
-                "bugs": 0.0015849625007211565
-            },
-            "_default_profile": {
-                "h1": 1,
-                "h2": 2,
-                "N1": 1,
-                "N2": 2,
-                "vocabulary": 3,
-                "length": 3,
-                "calculated_length": 2.0,
-                "volume": 4.754887502163469,
-                "difficulty": 0.5,
-                "effort": 2.3774437510817346,
-                "time": 0.1320802083934297,
-                "bugs": 0.0015849625007211565
-            },
-            "test": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "list_collections": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "run_function": {
-                "h1": 2,
-                "h2": 4,
-                "N1": 3,
-                "N2": 4,
-                "vocabulary": 6,
-                "length": 7,
-                "calculated_length": 10.0,
-                "volume": 18.094737505048094,
-                "difficulty": 1.0,
-                "effort": 18.094737505048094,
-                "time": 1.0052631947248942,
-                "bugs": 0.006031579168349364
-            }
-        }
-    },
-    "scripts/proxy-test/client.py": {
-        "total": {
-            "h1": 1,
-            "h2": 4,
-            "N1": 2,
-            "N2": 4,
-            "vocabulary": 5,
-            "length": 6,
-            "calculated_length": 8.0,
-            "volume": 13.931568569324174,
-            "difficulty": 0.5,
-            "effort": 6.965784284662087,
-            "time": 0.3869880158145604,
-            "bugs": 0.004643856189774725
-        },
-        "functions": {
-            "test_websocket_proxy_with_compat": {
-                "h1": 1,
-                "h2": 2,
-                "N1": 1,
-                "N2": 2,
-                "vocabulary": 3,
-                "length": 3,
-                "calculated_length": 2.0,
-                "volume": 4.754887502163469,
-                "difficulty": 0.5,
-                "effort": 2.3774437510817346,
-                "time": 0.1320802083934297,
-                "bugs": 0.0015849625007211565
-            },
-            "main": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            }
-        }
-    },
-    "scripts/proxy-test/server.py": {
-        "total": {
-            "h1": 0,
-            "h2": 0,
-            "N1": 0,
-            "N2": 0,
-            "vocabulary": 0,
-            "length": 0,
-            "calculated_length": 0,
-            "volume": 0,
-            "difficulty": 0,
-            "effort": 0,
-            "time": 0.0,
-            "bugs": 0.0
-        },
-        "functions": {
-            "websocket_endpoint": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            }
-        }
-    },
-    "docs/conftest.py": {
-        "total": {
-            "h1": 1,
-            "h2": 2,
-            "N1": 1,
-            "N2": 2,
-            "vocabulary": 3,
-            "length": 3,
-            "calculated_length": 2.0,
-            "volume": 4.754887502163469,
-            "difficulty": 0.5,
-            "effort": 2.3774437510817346,
-            "time": 0.1320802083934297,
-            "bugs": 0.0015849625007211565
-        },
-        "functions": {
-            "pytest_collection_modifyitems": {
-                "h1": 1,
-                "h2": 2,
-                "N1": 1,
-                "N2": 2,
-                "vocabulary": 3,
-                "length": 3,
-                "calculated_length": 2.0,
-                "volume": 4.754887502163469,
-                "difficulty": 0.5,
-                "effort": 2.3774437510817346,
-                "time": 0.1320802083934297,
-                "bugs": 0.0015849625007211565
-            },
-            "mock_runner_start": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "pytest_markdown_docs_globals": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "mock_post_200": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            }
-        }
-    },
-    "docs/myproject/cool.py": {
-        "total": {
-            "h1": 0,
-            "h2": 0,
-            "N1": 0,
-            "N2": 0,
-            "vocabulary": 0,
-            "length": 0,
-            "calculated_length": 0,
-            "volume": 0,
-            "difficulty": 0,
-            "effort": 0,
-            "time": 0.0,
-            "bugs": 0.0
-        },
-        "functions": {
-            "do_something_cool": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            }
-        }
-    },
-    "docs/myproject/utils.py": {
-        "total": {
-            "h1": 0,
-            "h2": 0,
-            "N1": 0,
-            "N2": 0,
-            "vocabulary": 0,
-            "length": 0,
-            "calculated_length": 0,
-            "volume": 0,
-            "difficulty": 0,
-            "effort": 0,
-            "time": 0.0,
-            "bugs": 0.0
-        },
-        "functions": {
-            "post": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "put": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            }
-        }
-    },
-    "docs/myproject/flows.py": {
-        "total": {
-            "h1": 0,
-            "h2": 0,
-            "N1": 0,
-            "N2": 0,
-            "vocabulary": 0,
-            "length": 0,
-            "calculated_length": 0,
-            "volume": 0,
-            "difficulty": 0,
-            "effort": 0,
-            "time": 0.0,
-            "bugs": 0.0
-        },
-        "functions": {
-            "my_flow": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "my_nested_flow": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            }
-        }
-    },
-    "docs/myproject/tasks.py": {
-        "total": {
-            "h1": 0,
-            "h2": 0,
-            "N1": 0,
-            "N2": 0,
-            "vocabulary": 0,
-            "length": 0,
-            "calculated_length": 0,
-            "volume": 0,
-            "difficulty": 0,
-            "effort": 0,
-            "time": 0.0,
-            "bugs": 0.0
-        },
-        "functions": {
-            "my_background_task": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            }
-        }
-    },
-    "docs/myproject/db.py": {
-        "total": {
-            "h1": 0,
-            "h2": 0,
-            "N1": 0,
-            "N2": 0,
-            "vocabulary": 0,
-            "length": 0,
-            "calculated_length": 0,
-            "volume": 0,
-            "difficulty": 0,
-            "effort": 0,
-            "time": 0.0,
-            "bugs": 0.0
-        },
-        "functions": {
-            "execute": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            }
-        }
-    },
-    "flows/serve_a_flow.py": {
-        "total": {
-            "h1": 3,
-            "h2": 10,
-            "N1": 5,
-            "N2": 10,
-            "vocabulary": 13,
-            "length": 15,
-            "calculated_length": 37.974168451037094,
-            "volume": 55.506595772116384,
-            "difficulty": 1.5,
-            "effort": 83.25989365817458,
-            "time": 4.625549647676365,
-            "bugs": 0.01850219859070546
-        },
-        "functions": {
-            "may_i_take_your_hat_sir": {
-                "h1": 2,
-                "h2": 4,
-                "N1": 2,
-                "N2": 4,
-                "vocabulary": 6,
-                "length": 6,
-                "calculated_length": 10.0,
-                "volume": 15.509775004326936,
-                "difficulty": 1.0,
-                "effort": 15.509775004326936,
-                "time": 0.861654166907052,
-                "bugs": 0.005169925001442312
-            },
-            "_handler": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "count_runs": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            }
-        }
-    },
-    "flows/docker_deploy.py": {
-        "total": {
-            "h1": 1,
-            "h2": 2,
-            "N1": 1,
-            "N2": 2,
-            "vocabulary": 3,
-            "length": 3,
-            "calculated_length": 2.0,
-            "volume": 4.754887502163469,
-            "difficulty": 0.5,
-            "effort": 2.3774437510817346,
-            "time": 0.1320802083934297,
-            "bugs": 0.0015849625007211565
-        },
-        "functions": {
-            "read_flow_run": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "flow_that_needs_pandas": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "main": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            }
-        }
-    },
-    "flows/flow_pauses.py": {
-        "total": {
-            "h1": 2,
-            "h2": 3,
-            "N1": 2,
-            "N2": 4,
-            "vocabulary": 5,
-            "length": 6,
-            "calculated_length": 6.754887502163469,
-            "volume": 13.931568569324174,
-            "difficulty": 1.3333333333333333,
-            "effort": 18.575424759098897,
-            "time": 1.0319680421721609,
-            "bugs": 0.004643856189774725
-        },
-        "functions": {
-            "my_task": {
-                "h1": 1,
-                "h2": 1,
-                "N1": 1,
-                "N2": 2,
-                "vocabulary": 2,
-                "length": 3,
-                "calculated_length": 0.0,
-                "volume": 3.0,
-                "difficulty": 1.0,
-                "effort": 3.0,
-                "time": 0.16666666666666666,
-                "bugs": 0.001
-            },
-            "pause_test": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "resume_after_started": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            }
-        }
-    },
-    "flows/hello_world.py": {
-        "total": {
-            "h1": 1,
-            "h2": 2,
-            "N1": 1,
-            "N2": 2,
-            "vocabulary": 3,
-            "length": 3,
-            "calculated_length": 2.0,
-            "volume": 4.754887502163469,
-            "difficulty": 0.5,
-            "effort": 2.3774437510817346,
-            "time": 0.1320802083934297,
-            "bugs": 0.0015849625007211565
-        },
-        "functions": {
-            "hello": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            }
-        }
-    },
-    "flows/task_results.py": {
-        "total": {
-            "h1": 2,
-            "h2": 9,
-            "N1": 5,
-            "N2": 10,
-            "vocabulary": 11,
-            "length": 15,
-            "calculated_length": 30.529325012980813,
-            "volume": 51.89147427955947,
-            "difficulty": 1.1111111111111112,
-            "effort": 57.65719364395497,
-            "time": 3.203177424664165,
-            "bugs": 0.01729715809318649
-        },
-        "functions": {
-            "hello": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "wrapper_flow": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "get_state_from_api": {
-                "h1": 1,
-                "h2": 2,
-                "N1": 1,
-                "N2": 2,
-                "vocabulary": 3,
-                "length": 3,
-                "calculated_length": 2.0,
-                "volume": 4.754887502163469,
-                "difficulty": 0.5,
-                "effort": 2.3774437510817346,
-                "time": 0.1320802083934297,
-                "bugs": 0.0015849625007211565
-            }
-        }
-    },
-    "flows/load_flows_concurrently.py": {
-        "total": {
-            "h1": 3,
-            "h2": 6,
-            "N1": 4,
-            "N2": 8,
-            "vocabulary": 9,
-            "length": 12,
-            "calculated_length": 20.264662506490406,
-            "volume": 38.03910001730775,
-            "difficulty": 2.0,
-            "effort": 76.0782000346155,
-            "time": 4.226566668589751,
-            "bugs": 0.012679700005769252
-        },
-        "functions": {
-            "load_flow": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "test_iteration": {
-                "h1": 1,
-                "h2": 2,
-                "N1": 1,
-                "N2": 2,
-                "vocabulary": 3,
-                "length": 3,
-                "calculated_length": 2.0,
-                "volume": 4.754887502163469,
-                "difficulty": 0.5,
-                "effort": 2.3774437510817346,
-                "time": 0.1320802083934297,
-                "bugs": 0.0015849625007211565
-            },
-            "run_stress_test": {
-                "h1": 1,
-                "h2": 2,
-                "N1": 2,
-                "N2": 4,
-                "vocabulary": 3,
-                "length": 6,
-                "calculated_length": 2.0,
-                "volume": 9.509775004326938,
-                "difficulty": 1.0,
-                "effort": 9.509775004326938,
-                "time": 0.5283208335737188,
-                "bugs": 0.003169925001442313
-            }
-        }
-    },
-    "flows/worker.py": {
-        "total": {
-            "h1": 2,
-            "h2": 14,
-            "N1": 8,
-            "N2": 16,
-            "vocabulary": 16,
-            "length": 24,
-            "calculated_length": 55.30296890880645,
-            "volume": 96.0,
-            "difficulty": 1.1428571428571428,
-            "effort": 109.71428571428571,
-            "time": 6.095238095238095,
-            "bugs": 0.032
-        },
-        "functions": {
-            "watch_worker_events": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "run_event_listener": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "main": {
-                "h1": 2,
-                "h2": 12,
-                "N1": 7,
-                "N2": 14,
-                "vocabulary": 14,
-                "length": 21,
-                "calculated_length": 45.01955000865388,
-                "volume": 79.95445336320968,
-                "difficulty": 1.1666666666666667,
-                "effort": 93.2801955904113,
-                "time": 5.182233088356183,
-                "bugs": 0.026651484454403226
-            }
-        }
-    },
-    "flows/check_output_of_interrupted_serve.py": {
-        "total": {
-            "h1": 4,
-            "h2": 7,
-            "N1": 4,
-            "N2": 8,
-            "vocabulary": 11,
-            "length": 12,
-            "calculated_length": 27.651484454403228,
-            "volume": 41.51317942364757,
-            "difficulty": 2.2857142857142856,
-            "effort": 94.88726725405158,
-            "time": 5.27151484744731,
-            "bugs": 0.01383772647454919
-        },
-        "functions": {
-            "main": {
-                "h1": 3,
-                "h2": 5,
-                "N1": 3,
-                "N2": 6,
-                "vocabulary": 8,
-                "length": 9,
-                "calculated_length": 16.36452797660028,
-                "volume": 27.0,
-                "difficulty": 1.8,
-                "effort": 48.6,
-                "time": 2.7,
-                "bugs": 0.009
-            }
-        }
-    },
-    "flows/client_context_lifespan.py": {
-        "total": {
-            "h1": 2,
-            "h2": 8,
-            "N1": 7,
-            "N2": 14,
-            "vocabulary": 10,
-            "length": 21,
-            "calculated_length": 26.0,
-            "volume": 69.76048999263462,
-            "difficulty": 1.75,
-            "effort": 122.08085748711058,
-            "time": 6.782269860395032,
-            "bugs": 0.02325349666421154
-        },
-        "functions": {
-            "make_lifespan": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "client_context_lifespan_is_robust_to_threaded_concurrency": {
-                "h1": 2,
-                "h2": 2,
-                "N1": 2,
-                "N2": 4,
-                "vocabulary": 4,
-                "length": 6,
-                "calculated_length": 4.0,
-                "volume": 12.0,
-                "difficulty": 2.0,
-                "effort": 24.0,
-                "time": 1.3333333333333333,
-                "bugs": 0.004
-            },
-            "client_context_lifespan_is_robust_to_high_async_concurrency": {
-                "h1": 2,
-                "h2": 2,
-                "N1": 2,
-                "N2": 4,
-                "vocabulary": 4,
-                "length": 6,
-                "calculated_length": 4.0,
-                "volume": 12.0,
-                "difficulty": 2.0,
-                "effort": 24.0,
-                "time": 1.3333333333333333,
-                "bugs": 0.004
-            },
-            "client_context_lifespan_is_robust_to_mixed_concurrency": {
-                "h1": 2,
-                "h2": 2,
-                "N1": 2,
-                "N2": 4,
-                "vocabulary": 4,
-                "length": 6,
-                "calculated_length": 4.0,
-                "volume": 12.0,
-                "difficulty": 2.0,
-                "effort": 24.0,
-                "time": 1.3333333333333333,
-                "bugs": 0.004
-            },
-            "concurrency_tests": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            }
-        }
-    },
-    "flows/deploy.py": {
-        "total": {
-            "h1": 2,
-            "h2": 4,
-            "N1": 2,
-            "N2": 4,
-            "vocabulary": 6,
-            "length": 6,
-            "calculated_length": 10.0,
-            "volume": 15.509775004326936,
-            "difficulty": 1.0,
-            "effort": 15.509775004326936,
-            "time": 0.861654166907052,
-            "bugs": 0.005169925001442312
-        },
-        "functions": {
-            "read_flow_run": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "main": {
-                "h1": 1,
-                "h2": 2,
-                "N1": 1,
-                "N2": 2,
-                "vocabulary": 3,
-                "length": 3,
-                "calculated_length": 2.0,
-                "volume": 4.754887502163469,
-                "difficulty": 0.5,
-                "effort": 2.3774437510817346,
-                "time": 0.1320802083934297,
-                "bugs": 0.0015849625007211565
-            }
-        }
-    },
-    "flows/schedule_statefulness.py": {
-        "total": {
-            "h1": 3,
-            "h2": 7,
-            "N1": 4,
-            "N2": 7,
-            "vocabulary": 10,
-            "length": 11,
-            "calculated_length": 24.406371956566698,
-            "volume": 36.541209043760986,
-            "difficulty": 1.5,
-            "effort": 54.81181356564148,
-            "time": 3.0451007536467487,
-            "bugs": 0.012180403014586996
-        },
-        "functions": {
-            "my_flow": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "_handler": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "run_serve_with_schedule": {
-                "h1": 1,
-                "h2": 2,
-                "N1": 1,
-                "N2": 2,
-                "vocabulary": 3,
-                "length": 3,
-                "calculated_length": 2.0,
-                "volume": 4.754887502163469,
-                "difficulty": 0.5,
-                "effort": 2.3774437510817346,
-                "time": 0.1320802083934297,
-                "bugs": 0.0015849625007211565
-            },
-            "check_deployment_schedules": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "main": {
-                "h1": 2,
-                "h2": 3,
-                "N1": 2,
-                "N2": 3,
-                "vocabulary": 5,
-                "length": 5,
-                "calculated_length": 6.754887502163469,
-                "volume": 11.60964047443681,
-                "difficulty": 1.0,
-                "effort": 11.60964047443681,
-                "time": 0.6449800263576005,
-                "bugs": 0.0038698801581456034
-            }
-        }
-    },
-    "flows/hello_tasks.py": {
-        "total": {
-            "h1": 1,
-            "h2": 4,
-            "N1": 2,
-            "N2": 4,
-            "vocabulary": 5,
-            "length": 6,
-            "calculated_length": 8.0,
-            "volume": 13.931568569324174,
-            "difficulty": 0.5,
-            "effort": 6.965784284662087,
-            "time": 0.3869880158145604,
-            "bugs": 0.004643856189774725
-        },
-        "functions": {
-            "say_hello": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "hello": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            }
-        }
-    },
-    "flows/flow_retries.py": {
-        "total": {
-            "h1": 3,
-            "h2": 14,
-            "N1": 8,
-            "N2": 16,
-            "vocabulary": 17,
-            "length": 24,
-            "calculated_length": 58.05785641096992,
-            "volume": 98.09910819000817,
-            "difficulty": 1.7142857142857142,
-            "effort": 168.1698997542997,
-            "time": 9.342772208572207,
-            "bugs": 0.03269970273000272
-        },
-        "functions": {
-            "happy_task": {
-                "h1": 1,
-                "h2": 2,
-                "N1": 1,
-                "N2": 2,
-                "vocabulary": 3,
-                "length": 3,
-                "calculated_length": 2.0,
-                "volume": 4.754887502163469,
-                "difficulty": 0.5,
-                "effort": 2.3774437510817346,
-                "time": 0.1320802083934297,
-                "bugs": 0.0015849625007211565
-            },
-            "hello": {
-                "h1": 2,
-                "h2": 4,
-                "N1": 3,
-                "N2": 6,
-                "vocabulary": 6,
-                "length": 9,
-                "calculated_length": 10.0,
-                "volume": 23.264662506490403,
-                "difficulty": 1.5,
-                "effort": 34.89699375973561,
-                "time": 1.938721875540867,
-                "bugs": 0.007754887502163467
-            }
-        }
-    },
-    "flows/flow_retries_with_subflows.py": {
-        "total": {
-            "h1": 3,
-            "h2": 14,
-            "N1": 8,
-            "N2": 16,
-            "vocabulary": 17,
-            "length": 24,
-            "calculated_length": 58.05785641096992,
-            "volume": 98.09910819000817,
-            "difficulty": 1.7142857142857142,
-            "effort": 168.1698997542997,
-            "time": 9.342772208572207,
-            "bugs": 0.03269970273000272
-        },
-        "functions": {
-            "child_flow": {
-                "h1": 2,
-                "h2": 4,
-                "N1": 2,
-                "N2": 4,
-                "vocabulary": 6,
-                "length": 6,
-                "calculated_length": 10.0,
-                "volume": 15.509775004326936,
-                "difficulty": 1.0,
-                "effort": 15.509775004326936,
-                "time": 0.861654166907052,
-                "bugs": 0.005169925001442312
-            },
-            "parent_flow": {
-                "h1": 2,
-                "h2": 3,
-                "N1": 2,
-                "N2": 4,
-                "vocabulary": 5,
-                "length": 6,
-                "calculated_length": 6.754887502163469,
-                "volume": 13.931568569324174,
-                "difficulty": 1.3333333333333333,
-                "effort": 18.575424759098897,
-                "time": 1.0319680421721609,
-                "bugs": 0.004643856189774725
-            }
-        }
-    },
-    "flows/concurrent_subflows.py": {
-        "total": {
-            "h1": 1,
-            "h2": 2,
-            "N1": 1,
-            "N2": 2,
-            "vocabulary": 3,
-            "length": 3,
-            "calculated_length": 2.0,
-            "volume": 4.754887502163469,
-            "difficulty": 0.5,
-            "effort": 2.3774437510817346,
-            "time": 0.1320802083934297,
-            "bugs": 0.0015849625007211565
-        },
-        "functions": {
-            "dummy_task": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "child_flow": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "parent_flow": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            }
-        }
-    },
-    "flows/secret_block.py": {
-        "total": {
-            "h1": 1,
-            "h2": 4,
-            "N1": 2,
-            "N2": 4,
-            "vocabulary": 5,
-            "length": 6,
-            "calculated_length": 8.0,
-            "volume": 13.931568569324174,
-            "difficulty": 0.5,
-            "effort": 6.965784284662087,
-            "time": 0.3869880158145604,
-            "bugs": 0.004643856189774725
-        },
-        "functions": {
-            "save_secret": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "load_secret": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "save_and_load_secret": {
-                "h1": 1,
-                "h2": 2,
-                "N1": 1,
-                "N2": 2,
-                "vocabulary": 3,
-                "length": 3,
-                "calculated_length": 2.0,
-                "volume": 4.754887502163469,
-                "difficulty": 0.5,
-                "effort": 2.3774437510817346,
-                "time": 0.1320802083934297,
-                "bugs": 0.0015849625007211565
-            }
-        }
-    },
-    "flows/flow_results.py": {
-        "total": {
-            "h1": 1,
-            "h2": 5,
-            "N1": 3,
-            "N2": 6,
-            "vocabulary": 6,
-            "length": 9,
-            "calculated_length": 11.60964047443681,
-            "volume": 23.264662506490403,
-            "difficulty": 0.6,
-            "effort": 13.95879750389424,
-            "time": 0.7754887502163467,
-            "bugs": 0.007754887502163467
-        },
-        "functions": {
-            "hello": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "get_state_from_api": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            }
-        }
-    },
-    "flows/setup_logging.py": {
-        "total": {
-            "h1": 1,
-            "h2": 4,
-            "N1": 2,
-            "N2": 4,
-            "vocabulary": 5,
-            "length": 6,
-            "calculated_length": 8.0,
-            "volume": 13.931568569324174,
-            "difficulty": 0.5,
-            "effort": 6.965784284662087,
-            "time": 0.3869880158145604,
-            "bugs": 0.004643856189774725
-        },
-        "functions": {
-            "myflow": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            }
-        }
-    },
-    "flows/task_retries.py": {
-        "total": {
-            "h1": 3,
-            "h2": 9,
-            "N1": 5,
-            "N2": 10,
-            "vocabulary": 12,
-            "length": 15,
-            "calculated_length": 33.28421251514428,
-            "volume": 53.77443751081735,
-            "difficulty": 1.6666666666666667,
-            "effort": 89.62406251802892,
-            "time": 4.9791145843349405,
-            "bugs": 0.017924812503605784
-        },
-        "functions": {
-            "sad_task": {
-                "h1": 2,
-                "h2": 3,
-                "N1": 2,
-                "N2": 4,
-                "vocabulary": 5,
-                "length": 6,
-                "calculated_length": 6.754887502163469,
-                "volume": 13.931568569324174,
-                "difficulty": 1.3333333333333333,
-                "effort": 18.575424759098897,
-                "time": 1.0319680421721609,
-                "bugs": 0.004643856189774725
-            },
-            "hello": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            }
-        }
-    },
-    "flows/automation-assessments.py": {
-        "total": {
-            "h1": 3,
-            "h2": 8,
-            "N1": 4,
-            "N2": 8,
-            "vocabulary": 11,
-            "length": 12,
-            "calculated_length": 28.75488750216347,
-            "volume": 41.51317942364757,
-            "difficulty": 1.5,
-            "effort": 62.26976913547136,
-            "time": 3.4594316186372978,
-            "bugs": 0.01383772647454919
-        },
-        "functions": {
-            "create_or_replace_automation": {
-                "h1": 2,
-                "h2": 4,
-                "N1": 2,
-                "N2": 4,
-                "vocabulary": 6,
-                "length": 6,
-                "calculated_length": 10.0,
-                "volume": 15.509775004326936,
-                "difficulty": 1.0,
-                "effort": 15.509775004326936,
-                "time": 0.861654166907052,
-                "bugs": 0.005169925001442312
-            },
-            "wait_for_event": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "assess_reactive_automation": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "assess_proactive_automation": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "assess_compound_automation": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "assess_sequence_automation": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            }
-        }
-    },
-    "load_testing/track_cnx.py": {
-        "total": {
-            "h1": 7,
-            "h2": 37,
-            "N1": 19,
-            "N2": 39,
-            "vocabulary": 44,
-            "length": 58,
-            "calculated_length": 212.4012589826744,
-            "volume": 316.64703388096325,
-            "difficulty": 3.689189189189189,
-            "effort": 1168.1708141824724,
-            "time": 64.89837856569291,
-            "bugs": 0.10554901129365442
-        },
-        "functions": {
-            "make_table": {
-                "h1": 5,
-                "h2": 18,
-                "N1": 9,
-                "N2": 19,
-                "vocabulary": 23,
-                "length": 28,
-                "calculated_length": 86.66829050039843,
-                "volume": 126.65973476959637,
-                "difficulty": 2.638888888888889,
-                "effort": 334.24096675310153,
-                "time": 18.56894259739453,
-                "bugs": 0.042219911589865454
-            },
-            "monitor_connections": {
-                "h1": 5,
-                "h2": 17,
-                "N1": 9,
-                "N2": 18,
-                "vocabulary": 22,
-                "length": 27,
-                "calculated_length": 81.0965087756926,
-                "volume": 120.40465370320703,
-                "difficulty": 2.6470588235294117,
-                "effort": 318.71820097907744,
-                "time": 17.706566721059858,
-                "bugs": 0.04013488456773568
-            }
-        }
-    },
-    "tools/write_build_info.py": {
-        "total": {
-            "h1": 2,
-            "h2": 4,
-            "N1": 2,
-            "N2": 4,
-            "vocabulary": 6,
-            "length": 6,
-            "calculated_length": 10.0,
-            "volume": 15.509775004326936,
-            "difficulty": 1.0,
-            "effort": 15.509775004326936,
-            "time": 0.861654166907052,
-            "bugs": 0.005169925001442312
-        },
-        "functions": {
-            "write_build_info": {
-                "h1": 2,
-                "h2": 4,
-                "N1": 2,
-                "N2": 4,
-                "vocabulary": 6,
-                "length": 6,
-                "calculated_length": 10.0,
-                "volume": 15.509775004326936,
-                "difficulty": 1.0,
-                "effort": 15.509775004326936,
-                "time": 0.861654166907052,
-                "bugs": 0.005169925001442312
-            }
-        }
-    },
-    "client/client_flow.py": {
-        "total": {
-            "h1": 3,
-            "h2": 7,
-            "N1": 4,
-            "N2": 7,
-            "vocabulary": 10,
-            "length": 11,
-            "calculated_length": 24.406371956566698,
-            "volume": 36.541209043760986,
-            "difficulty": 1.5,
-            "effort": 54.81181356564148,
-            "time": 3.0451007536467487,
-            "bugs": 0.012180403014586996
-        },
-        "functions": {
-            "skip_remote_run": {
-                "h1": 2,
-                "h2": 4,
-                "N1": 2,
-                "N2": 4,
-                "vocabulary": 6,
-                "length": 6,
-                "calculated_length": 10.0,
-                "volume": 15.509775004326936,
-                "difficulty": 1.0,
-                "effort": 15.509775004326936,
-                "time": 0.861654166907052,
-                "bugs": 0.005169925001442312
-            },
-            "smoke_test_task": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "smoke_test_flow": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            }
-        }
-    },
-    "benches/__main__.py": {
-        "total": {
-            "h1": 6,
-            "h2": 13,
-            "N1": 8,
-            "N2": 15,
-            "vocabulary": 19,
-            "length": 23,
-            "calculated_length": 63.61549134016113,
-            "volume": 97.70233280920246,
-            "difficulty": 3.4615384615384617,
-            "effort": 338.2003828010854,
-            "time": 18.788910155615856,
-            "bugs": 0.03256744426973415
-        },
-        "functions": {}
-    },
-    "benches/bench_tasks.py": {
-        "total": {
-            "h1": 0,
-            "h2": 0,
-            "N1": 0,
-            "N2": 0,
-            "vocabulary": 0,
-            "length": 0,
-            "calculated_length": 0,
-            "volume": 0,
-            "difficulty": 0,
-            "effort": 0,
-            "time": 0.0,
-            "bugs": 0.0
-        },
-        "functions": {
-            "noop_function": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "bench_task_decorator": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "bench_task_call": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "bench_task_submit": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            }
-        }
-    },
-    "benches/bench_flows.py": {
-        "total": {
-            "h1": 1,
-            "h2": 4,
-            "N1": 2,
-            "N2": 4,
-            "vocabulary": 5,
-            "length": 6,
-            "calculated_length": 8.0,
-            "volume": 13.931568569324174,
-            "difficulty": 0.5,
-            "effort": 6.965784284662087,
-            "time": 0.3869880158145604,
-            "bugs": 0.004643856189774725
-        },
-        "functions": {
-            "noop_function": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "anoop_function": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "bench_flow_decorator": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "bench_flow_call": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "bench_flow_with_submitted_tasks": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "bench_flow_with_called_tasks": {
-                "h1": 1,
-                "h2": 2,
-                "N1": 1,
-                "N2": 2,
-                "vocabulary": 3,
-                "length": 3,
-                "calculated_length": 2.0,
-                "volume": 4.754887502163469,
-                "difficulty": 0.5,
-                "effort": 2.3774437510817346,
-                "time": 0.1320802083934297,
-                "bugs": 0.0015849625007211565
-            },
-            "bench_async_flow_with_async_tasks": {
-                "h1": 1,
-                "h2": 2,
-                "N1": 1,
-                "N2": 2,
-                "vocabulary": 3,
-                "length": 3,
-                "calculated_length": 2.0,
-                "volume": 4.754887502163469,
-                "difficulty": 0.5,
-                "effort": 2.3774437510817346,
-                "time": 0.1320802083934297,
-                "bugs": 0.0015849625007211565
-            },
-            "bench_flow_with_subflows": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "bench_async_flow_with_sequential_subflows": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "bench_async_flow_with_concurrent_subflows": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            }
-        }
-    },
-    "benches/bench_import.py": {
-        "total": {
-            "h1": 0,
-            "h2": 0,
-            "N1": 0,
-            "N2": 0,
-            "vocabulary": 0,
-            "length": 0,
-            "calculated_length": 0,
-            "volume": 0,
-            "difficulty": 0,
-            "effort": 0,
-            "time": 0.0,
-            "bugs": 0.0
-        },
-        "functions": {
-            "reset_imports": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "bench_import_prefect": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "bench_import_prefect_flow": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            }
-        }
-    },
-    "benches/bench_cli.py": {
-        "total": {
-            "h1": 0,
-            "h2": 0,
-            "N1": 0,
-            "N2": 0,
-            "vocabulary": 0,
-            "length": 0,
-            "calculated_length": 0,
-            "volume": 0,
-            "difficulty": 0,
-            "effort": 0,
-            "time": 0.0,
-            "bugs": 0.0
-        },
-        "functions": {
-            "bench_prefect_help": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "bench_prefect_version": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "bench_prefect_short_version": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            },
-            "bench_prefect_profile_ls": {
-                "h1": 0,
-                "h2": 0,
-                "N1": 0,
-                "N2": 0,
-                "vocabulary": 0,
-                "length": 0,
-                "calculated_length": 0,
-                "volume": 0,
-                "difficulty": 0,
-                "effort": 0,
-                "time": 0.0,
-                "bugs": 0.0
-            }
-        }
-    },
     "src/integrations/prefect-dask/prefect_dask/utils.py": {
         "total": {
             "h1": 1,
@@ -3280,6 +278,23 @@
         }
     },
     "src/integrations/prefect-dask/prefect_dask/__init__.py": {
+        "total": {
+            "h1": 0,
+            "h2": 0,
+            "N1": 0,
+            "N2": 0,
+            "vocabulary": 0,
+            "length": 0,
+            "calculated_length": 0,
+            "volume": 0,
+            "difficulty": 0,
+            "effort": 0,
+            "time": 0.0,
+            "bugs": 0.0
+        },
+        "functions": {}
+    },
+    "src/integrations/prefect-dask/prefect_dask/_version.py": {
         "total": {
             "h1": 0,
             "h2": 0,
@@ -3802,6 +817,23 @@
         }
     },
     "src/integrations/prefect-azure/prefect_azure/__init__.py": {
+        "total": {
+            "h1": 0,
+            "h2": 0,
+            "N1": 0,
+            "N2": 0,
+            "vocabulary": 0,
+            "length": 0,
+            "calculated_length": 0,
+            "volume": 0,
+            "difficulty": 0,
+            "effort": 0,
+            "time": 0.0,
+            "bugs": 0.0
+        },
+        "functions": {}
+    },
+    "src/integrations/prefect-azure/prefect_azure/_version.py": {
         "total": {
             "h1": 0,
             "h2": 0,
@@ -5290,6 +2322,23 @@
                 "bugs": 0.0015849625007211565
             }
         }
+    },
+    "src/integrations/prefect-redis/prefect_redis/_version.py": {
+        "total": {
+            "h1": 0,
+            "h2": 0,
+            "N1": 0,
+            "N2": 0,
+            "vocabulary": 0,
+            "length": 0,
+            "calculated_length": 0,
+            "volume": 0,
+            "difficulty": 0,
+            "effort": 0,
+            "time": 0.0,
+            "bugs": 0.0
+        },
+        "functions": {}
     },
     "src/integrations/prefect-github/prefect_github/repository_owner.py": {
         "total": {
@@ -7029,6 +4078,23 @@
             }
         }
     },
+    "src/integrations/prefect-github/prefect_github/_version.py": {
+        "total": {
+            "h1": 0,
+            "h2": 0,
+            "N1": 0,
+            "N2": 0,
+            "vocabulary": 0,
+            "length": 0,
+            "calculated_length": 0,
+            "volume": 0,
+            "difficulty": 0,
+            "effort": 0,
+            "time": 0.0,
+            "bugs": 0.0
+        },
+        "functions": {}
+    },
     "src/integrations/prefect-github/prefect_github/mutations.py": {
         "total": {
             "h1": 1,
@@ -8538,6 +5604,23 @@
                 "bugs": 0.004643856189774725
             }
         }
+    },
+    "src/integrations/prefect-dbt/prefect_dbt/_version.py": {
+        "total": {
+            "h1": 0,
+            "h2": 0,
+            "N1": 0,
+            "N2": 0,
+            "vocabulary": 0,
+            "length": 0,
+            "calculated_length": 0,
+            "volume": 0,
+            "difficulty": 0,
+            "effort": 0,
+            "time": 0.0,
+            "bugs": 0.0
+        },
+        "functions": {}
     },
     "src/integrations/prefect-dbt/prefect_dbt/core/runner.py": {
         "total": {
@@ -10546,6 +7629,23 @@
         },
         "functions": {}
     },
+    "src/integrations/prefect-docker/prefect_docker/_version.py": {
+        "total": {
+            "h1": 0,
+            "h2": 0,
+            "N1": 0,
+            "N2": 0,
+            "vocabulary": 0,
+            "length": 0,
+            "calculated_length": 0,
+            "volume": 0,
+            "difficulty": 0,
+            "effort": 0,
+            "time": 0.0,
+            "bugs": 0.0
+        },
+        "functions": {}
+    },
     "src/integrations/prefect-docker/prefect_docker/types.py": {
         "total": {
             "h1": 5,
@@ -11262,6 +8362,23 @@
         },
         "functions": {}
     },
+    "src/integrations/prefect-snowflake/prefect_snowflake/_version.py": {
+        "total": {
+            "h1": 0,
+            "h2": 0,
+            "N1": 0,
+            "N2": 0,
+            "vocabulary": 0,
+            "length": 0,
+            "calculated_length": 0,
+            "volume": 0,
+            "difficulty": 0,
+            "effort": 0,
+            "time": 0.0,
+            "bugs": 0.0
+        },
+        "functions": {}
+    },
     "src/integrations/prefect-gitlab/prefect_gitlab/repositories.py": {
         "total": {
             "h1": 6,
@@ -11355,6 +8472,23 @@
         }
     },
     "src/integrations/prefect-gitlab/prefect_gitlab/__init__.py": {
+        "total": {
+            "h1": 0,
+            "h2": 0,
+            "N1": 0,
+            "N2": 0,
+            "vocabulary": 0,
+            "length": 0,
+            "calculated_length": 0,
+            "volume": 0,
+            "difficulty": 0,
+            "effort": 0,
+            "time": 0.0,
+            "bugs": 0.0
+        },
+        "functions": {}
+    },
+    "src/integrations/prefect-gitlab/prefect_gitlab/_version.py": {
         "total": {
             "h1": 0,
             "h2": 0,
@@ -12593,6 +9727,23 @@
                 "bugs": 0.004
             }
         }
+    },
+    "src/integrations/prefect-gcp/prefect_gcp/_version.py": {
+        "total": {
+            "h1": 0,
+            "h2": 0,
+            "N1": 0,
+            "N2": 0,
+            "vocabulary": 0,
+            "length": 0,
+            "calculated_length": 0,
+            "volume": 0,
+            "difficulty": 0,
+            "effort": 0,
+            "time": 0.0,
+            "bugs": 0.0
+        },
+        "functions": {}
     },
     "src/integrations/prefect-gcp/prefect_gcp/secret_manager.py": {
         "total": {
@@ -13968,6 +11119,23 @@
         },
         "functions": {}
     },
+    "src/integrations/prefect-slack/prefect_slack/_version.py": {
+        "total": {
+            "h1": 0,
+            "h2": 0,
+            "N1": 0,
+            "N2": 0,
+            "vocabulary": 0,
+            "length": 0,
+            "calculated_length": 0,
+            "volume": 0,
+            "difficulty": 0,
+            "effort": 0,
+            "time": 0.0,
+            "bugs": 0.0
+        },
+        "functions": {}
+    },
     "src/integrations/prefect-sqlalchemy/prefect_sqlalchemy/database.py": {
         "total": {
             "h1": 6,
@@ -14385,6 +11553,23 @@
         },
         "functions": {}
     },
+    "src/integrations/prefect-sqlalchemy/prefect_sqlalchemy/_version.py": {
+        "total": {
+            "h1": 0,
+            "h2": 0,
+            "N1": 0,
+            "N2": 0,
+            "vocabulary": 0,
+            "length": 0,
+            "calculated_length": 0,
+            "volume": 0,
+            "difficulty": 0,
+            "effort": 0,
+            "time": 0.0,
+            "bugs": 0.0
+        },
+        "functions": {}
+    },
     "src/integrations/prefect-email/prefect_email/credentials.py": {
         "total": {
             "h1": 6,
@@ -14460,6 +11645,23 @@
         }
     },
     "src/integrations/prefect-email/prefect_email/__init__.py": {
+        "total": {
+            "h1": 0,
+            "h2": 0,
+            "N1": 0,
+            "N2": 0,
+            "vocabulary": 0,
+            "length": 0,
+            "calculated_length": 0,
+            "volume": 0,
+            "difficulty": 0,
+            "effort": 0,
+            "time": 0.0,
+            "bugs": 0.0
+        },
+        "functions": {}
+    },
+    "src/integrations/prefect-email/prefect_email/_version.py": {
         "total": {
             "h1": 0,
             "h2": 0,
@@ -15056,6 +12258,23 @@
                 "bugs": 0.0
             }
         }
+    },
+    "src/integrations/prefect-aws/prefect_aws/_version.py": {
+        "total": {
+            "h1": 0,
+            "h2": 0,
+            "N1": 0,
+            "N2": 0,
+            "vocabulary": 0,
+            "length": 0,
+            "calculated_length": 0,
+            "volume": 0,
+            "difficulty": 0,
+            "effort": 0,
+            "time": 0.0,
+            "bugs": 0.0
+        },
+        "functions": {}
     },
     "src/integrations/prefect-aws/prefect_aws/glue_job.py": {
         "total": {
@@ -16742,6 +13961,23 @@
             }
         }
     },
+    "src/integrations/prefect-bitbucket/prefect_bitbucket/_version.py": {
+        "total": {
+            "h1": 0,
+            "h2": 0,
+            "N1": 0,
+            "N2": 0,
+            "vocabulary": 0,
+            "length": 0,
+            "calculated_length": 0,
+            "volume": 0,
+            "difficulty": 0,
+            "effort": 0,
+            "time": 0.0,
+            "bugs": 0.0
+        },
+        "functions": {}
+    },
     "src/integrations/prefect-kubernetes/integration_tests/src/prefect_kubernetes_integration_tests/conftest.py": {
         "total": {
             "h1": 0,
@@ -18399,6 +15635,23 @@
             }
         }
     },
+    "src/integrations/prefect-kubernetes/prefect_kubernetes/_version.py": {
+        "total": {
+            "h1": 0,
+            "h2": 0,
+            "N1": 0,
+            "N2": 0,
+            "vocabulary": 0,
+            "length": 0,
+            "calculated_length": 0,
+            "volume": 0,
+            "difficulty": 0,
+            "effort": 0,
+            "time": 0.0,
+            "bugs": 0.0
+        },
+        "functions": {}
+    },
     "src/integrations/prefect-kubernetes/prefect_kubernetes/custom_objects.py": {
         "total": {
             "h1": 0,
@@ -18971,7 +16224,41 @@
         },
         "functions": {}
     },
+    "src/integrations/prefect-ray/prefect_ray/_version.py": {
+        "total": {
+            "h1": 0,
+            "h2": 0,
+            "N1": 0,
+            "N2": 0,
+            "vocabulary": 0,
+            "length": 0,
+            "calculated_length": 0,
+            "volume": 0,
+            "difficulty": 0,
+            "effort": 0,
+            "time": 0.0,
+            "bugs": 0.0
+        },
+        "functions": {}
+    },
     "src/integrations/prefect-shell/prefect_shell/__init__.py": {
+        "total": {
+            "h1": 0,
+            "h2": 0,
+            "N1": 0,
+            "N2": 0,
+            "vocabulary": 0,
+            "length": 0,
+            "calculated_length": 0,
+            "volume": 0,
+            "difficulty": 0,
+            "effort": 0,
+            "time": 0.0,
+            "bugs": 0.0
+        },
+        "functions": {}
+    },
+    "src/integrations/prefect-shell/prefect_shell/_version.py": {
         "total": {
             "h1": 0,
             "h2": 0,
@@ -19682,6 +16969,23 @@
                 "bugs": 0.005169925001442312
             }
         }
+    },
+    "src/integrations/prefect-databricks/prefect_databricks/_version.py": {
+        "total": {
+            "h1": 0,
+            "h2": 0,
+            "N1": 0,
+            "N2": 0,
+            "vocabulary": 0,
+            "length": 0,
+            "calculated_length": 0,
+            "volume": 0,
+            "difficulty": 0,
+            "effort": 0,
+            "time": 0.0,
+            "bugs": 0.0
+        },
+        "functions": {}
     },
     "src/integrations/prefect-databricks/prefect_databricks/models/jobs.py": {
         "total": {
