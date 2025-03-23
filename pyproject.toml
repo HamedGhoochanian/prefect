@@ -86,6 +86,7 @@ dependencies = [
     "ace-tools>=0.0",
     "matplotlib>=3.9.4",
     "seaborn>=0.13.2",
+    "scikit-learn>=1.6.1",
 ]
 [project.urls]
 Changelog = "https://github.com/PrefectHQ/prefect/releases"
